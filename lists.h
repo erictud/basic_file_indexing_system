@@ -2,13 +2,13 @@
 #define LIST
 
 typedef struct Node {
-    struct Node *next;
+    struct Node *next, *prev;
     void *content;
 } Node;
 
 typedef struct List {
     int len;
-    struct Node *head;
+    struct Node *head, *tail;
 } List;
 
 //creates empty list

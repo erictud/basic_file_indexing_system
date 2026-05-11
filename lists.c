@@ -5,14 +5,14 @@
 List *createList(){
     List *newList = malloc(sizeof(struct List));
     newList->len = 0;
-    newList->head = NULL;
+    newList->head = newList->tail = NULL;
     return newList;
 }
 
 // creates a new Node
 Node *createNode(void *content){
     Node *newNode = malloc(sizeof(struct Node));
-    newNode->next = NULL;
+    newNode->next = newNode->prev = NULL;
     newNode->content = content;
     return newNode;
 }
@@ -20,11 +20,13 @@ Node *createNode(void *content){
 // adds new node
 Node *addNode(List *list, void *content){
     Node *newNode = createNode(content);
-    if(!list->head) // adds first node
-        list->head = newNode;
-    else{ // adds another node
-        list->head->next = newNode;
-        list->head = newNode;
+    if(!list->head) // list is empty
+        list->head = list->tail = newNode;
+    else{ // adds to end
+        newNode->prev = list->tail;
+        newNode->next = NULL;
+        list->tail->next = newNode;
+        list->tail = newNode;
     }
     list->len++;
     return newNode;
@@ -32,22 +34,26 @@ Node *addNode(List *list, void *content){
  
 // removes an element based on a comparison function passed as param
 void removeNode(List *list, int (*cmp)(void *, void *), void *cmpContent){
-    Node *p = list->head, *prev = NULL;
+    Node *p = list->head;
     while(p != NULL){
         if(cmp(p->content, cmpContent) == 1){ 
             // found element that needs to be deleted
-            if(prev == NULL)
-            list->head = list->head->next;
-            else
-            prev->next = p->next;
-
+            if(p->next == NULL){ // del last node
+                if(list->head == list->tail) // only one node
+                    list->head = list->tail = NULL;
+                else
+                    list->tail = list->tail->prev;
+            }else if(p->prev == NULL){ // del first node
+                list->head = list->head->next;
+            }else{
+                p->prev->next = p->next;
+                p->next->prev = p->prev;
+            }
             free(p);
-            list->len--;
+            return;
         }
-        prev = p;
         p = p->next;
     }
-
 }
 
 // frees list, including the node's contents using an aux function
