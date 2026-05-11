@@ -18,7 +18,7 @@ Node *createNode(void *content){
 }
 
 // adds new node
-void addNode(List *list, void *content){
+Node *addNode(List *list, void *content){
     Node *newNode = createNode(content);
     if(!list->head) // adds first node
         list->head = newNode;
@@ -27,6 +27,7 @@ void addNode(List *list, void *content){
         list->head = newNode;
     }
     list->len++;
+    return newNode;
 }
  
 // removes an element based on a comparison function passed as param
