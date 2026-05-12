@@ -1,18 +1,18 @@
---- temp.out.norm	2026-05-12 11:27:07.074165681 +0300
-+++ tests/out/test76.out.norm	2026-05-12 11:27:07.075165651 +0300
-@@ -1 +1,29 @@
+--- temp.out.norm	2026-05-12 20:22:24.280228045 +0300
++++ tests/out/test76.out.norm	2026-05-12 20:22:24.281228037 +0300
+@@ -1,6 +1,29 @@
  OK
 +EMPTY
 +EMPTY
 +1 a0
-+OK
-+1 a0
-+OK
+ OK
+ 1 a0
+ OK
 +EMPTY
 +OK
-+OK
+ OK
 +NOT FOUND
-+OK
+ OK
 +1 a1
 +1 a1
 +abis 1 a1

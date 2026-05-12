@@ -1,6 +1,6 @@
---- temp.out.norm	2026-05-12 11:27:07.107164682 +0300
-+++ tests/out/test79.out.norm	2026-05-12 11:27:07.108164651 +0300
-@@ -2,11 +2,25 @@
+--- temp.out.norm	2026-05-12 20:22:24.316227764 +0300
++++ tests/out/test79.out.norm	2026-05-12 20:22:24.318227748 +0300
+@@ -2,15 +2,24 @@
  OK
  OK
  OK
@@ -13,58 +13,35 @@
  OK
  OK
  OK
-+OK
+ OK
 +2 c2 c5
 +2 c2 c5
-+2 c0 c3
+ 2 c0 c3
 +4 c0 c1 c2 c5
 +2 c1 c2
-+OK
-+OK
+ OK
+ OK
 +EMPTY
-+OK
+ OK
  NOT FOUND
  abis 2 c0 c1
- algoritm 1 c1
-@@ -18,11 +32,10 @@
- cafea 1 c5
- castel 2 c0 c5
- ceara 1 c2
--coliba 3 c2 c3 c5
-+coliba 2 c3 c5
- cometa 4 c0 c2 c3 c5
- coral 1 c3
- cristal 2 c2 c5
--cuantic 1 c3
- ecou 1 c3
- efemer 2 c0 c1
- elixir 2 c0 c5
-@@ -44,7 +57,7 @@
- oglinda 4 c0 c1 c2 c3
- orizont 2 c0 c1
- padure 3 c0 c2 c3
--pasare 3 c0 c2 c5
-+pasare 2 c2 c5
- penita 1 c2
- penumbra 3 c0 c3 c5
- pergament 1 c3
-@@ -76,5 +89,182 @@
+@@ -80,11 +89,182 @@
  zbor 2 c2 c5
  OK
  OK
 +1 c3
 +1 c3
-+OK
+ OK
  OK
 +7 c0 c1 c2 c3 c5 c6 c7
 +3 c2 c6 c3
-+2 c5 c7
-+2 c6 c7
+ 2 c5 c7
+ 2 c6 c7
 +EMPTY
  OK
-+1 c7
-+OK
-+1 c5
+ 1 c7
+ OK
+ 1 c5
 +1 c7
 +OK
 +abis 1 c1

@@ -1,72 +1,41 @@
---- temp.out.norm	2026-05-12 11:27:06.992168167 +0300
-+++ tests/out/test69.out.norm	2026-05-12 11:27:06.993168136 +0300
-@@ -18,6 +18,9 @@
- stuf 1 f4
- traseu 1 f2
+--- temp.out.norm	2026-05-12 20:22:24.179532892 +0300
++++ tests/out/test69.out.norm	2026-05-12 20:22:24.180228825 +0300
+@@ -20,6 +20,7 @@
  zapada 2 f1 f6
-+3 f1 f2 f6
-+2 f1 f6
+ 3 f1 f2 f6
+ 2 f1 f6
 +3 f1 f6 f2
  OK
  OK
  OK
-@@ -36,6 +39,11 @@
+@@ -38,6 +39,7 @@
  stuf 1 f4
  traseu 1 f2
  zapada 2 f1 f6
 +3 f1 f6 f2
-+OK
-+1 f6
-+OK
-+EMPTY
- asfalt 1 f5
- barca 1 f4
- cabana 1 f6
-@@ -50,7 +58,6 @@
- soare 1 f3
- stuf 1 f4
- traseu 1 f2
--zapada 2 f1 f6
  OK
- asfalt 1 f5
- barca 1 f4
-@@ -67,9 +74,11 @@
+ 1 f6
+ OK
+@@ -72,6 +74,7 @@
  soare 1 f3
  stuf 1 f4
  traseu 1 f2
--zapada 2 f1 f6
 +2 f7 f5
  OK
  OK
-+1 f7
-+EMPTY
- barca 1 f4
- cabana 1 f6
- delta 1 f4
-@@ -84,5 +93,39 @@
- soare 1 f3
- stuf 1 f4
- traseu 1 f2
--zapada 2 f1 f6
+ 1 f7
+@@ -93,6 +96,7 @@
  OK
-+OK
-+OK
+ OK
+ OK
 +1 f4
-+OK
-+cabana 1 f6
-+iarna 3 f1 f2 f6
-+mare 1 f3
-+munte 3 f1 f2 f6
-+nisip 1 f3
-+oras 1 f7
-+parcare 1 f7
-+rucsac 1 f2
-+schi 1 f1
-+soare 1 f3
-+traseu 1 f2
-+OK
-+OK
-+OK
+ OK
+ cabana 1 f6
+ iarna 3 f1 f2 f6
+@@ -108,3 +112,20 @@
+ OK
+ OK
+ OK
 +EMPTY
 +cabana 1 f6
 +iarna 3 f1 f2 f6

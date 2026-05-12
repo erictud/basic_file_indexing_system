@@ -1,23 +1,16 @@
---- temp.out.norm	2026-05-12 11:27:06.417541295 +0300
-+++ tests/out/test19.out.norm	2026-05-12 11:27:06.418185684 +0300
-@@ -4,10 +4,19 @@
- OK
- OK
- OK
-+OK
-+assassin 3 AdawaleMaster ArnoDorian ShaoJun
-+brotherhood 2 ArnoDorian ShaoJun
-+china 1 ShaoJun
-+freedom 1 AdawaleMaster
-+mentor 1 ArnoDorian
-+paris 1 ArnoDorian
-+OK
-+ally 1 EliseDeLaSerre
- assassin 3 AdawaleMaster ArnoDorian ShaoJun
- brotherhood 2 ArnoDorian ShaoJun
- china 1 ShaoJun
+--- temp.out.norm	2026-05-12 13:22:07.881009148 +0300
++++ tests/out/test19.out.norm	2026-05-12 13:22:07.882009143 +0300
+@@ -11,7 +11,6 @@
  freedom 1 AdawaleMaster
  mentor 1 ArnoDorian
  paris 1 ArnoDorian
 -pirate 1 AdawaleMaster
-+templar 1 EliseDeLaSerre
+ OK
+ ally 1 EliseDeLaSerre
+ assassin 3 AdawaleMaster ArnoDorian ShaoJun
+@@ -20,5 +19,4 @@
+ freedom 1 AdawaleMaster
+ mentor 1 ArnoDorian
+ paris 1 ArnoDorian
+-pirate 1 AdawaleMaster
+ templar 1 EliseDeLaSerre

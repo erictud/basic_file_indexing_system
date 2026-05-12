@@ -1,23 +1,18 @@
---- temp.out.norm	2026-05-12 11:27:06.395186386 +0300
-+++ tests/out/test17.out.norm	2026-05-12 11:27:06.396186355 +0300
-@@ -4,11 +4,19 @@
- OK
- OK
- OK
-+OK
- chosen 1 AnakinSkywalker
+--- temp.out.norm	2026-05-12 13:22:07.854009304 +0300
++++ tests/out/test17.out.norm	2026-05-12 13:22:07.855009299 +0300
+@@ -9,7 +9,6 @@
  force 1 AnakinSkywalker
  jedi 2 AnakinSkywalker ObiWanKenobi
  master 1 ObiWanKenobi
 -negotiator 1 ObiWanKenobi
-+republic 1 PadmeAmidala
-+senator 1 PadmeAmidala
-+sith 1 AnakinSkywalker
-+OK
-+chosen 1 AnakinSkywalker
-+force 1 AnakinSkywalker
-+jedi 3 AnakinSkywalker MaceWindu ObiWanKenobi
-+master 2 MaceWindu ObiWanKenobi
+ republic 1 PadmeAmidala
+ senator 1 PadmeAmidala
+ sith 1 AnakinSkywalker
+@@ -18,7 +17,6 @@
+ force 1 AnakinSkywalker
+ jedi 3 AnakinSkywalker MaceWindu ObiWanKenobi
+ master 2 MaceWindu ObiWanKenobi
+-negotiator 1 ObiWanKenobi
  republic 1 PadmeAmidala
  senator 1 PadmeAmidala
  sith 1 AnakinSkywalker

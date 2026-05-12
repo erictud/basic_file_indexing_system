@@ -1,11 +1,9 @@
---- temp.out.norm	2026-05-12 11:27:06.518495839 +0300
-+++ tests/out/test29.out.norm	2026-05-12 11:27:06.519182601 +0300
-@@ -5,3 +5,16 @@
+--- temp.out.norm	2026-05-12 20:22:23.651232953 +0300
++++ tests/out/test29.out.norm	2026-05-12 20:22:23.652232945 +0300
+@@ -7,3 +7,14 @@
  OK
  OK
- OK
-+OK
-+4 MegumiFushiguro NoboraKugisaki SatoruGojo YujiItadori
+ 4 MegumiFushiguro NoboraKugisaki SatoruGojo YujiItadori
 +3 SatoruGojo YujiItadori MegumiFushiguro
 +2 YujiItadori MegumiFushiguro
 +OK

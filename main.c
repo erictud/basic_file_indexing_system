@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+
 // custom headers
 #include "lists.h"
 #include "trie.h"
@@ -72,7 +73,7 @@ int main(){
             }
 
             // deleting references of the file from the keyword trie 
-            removeRefrenceFromWord(keywordTrieRoot, cmpNodes, nodeToBeDeleted);
+            removeRefrenceWord(keywordTrieRoot, cmpNodes, nodeToBeDeleted);
 
             // cleaning keyword trie
             cleanupTrie(keywordTrieRoot);
@@ -101,6 +102,39 @@ int main(){
 
             // printing succes message
             fprintf(outputFile, "OK\n");           
+        } else if(strcmp(operation, "DELKW") == 0){
+            char fileName[101], keywordToBeDeleted[101];
+            fscanf(inputFile, "%s %s", fileName, keywordToBeDeleted);
+
+            // finding the file with the id given
+            File *newFile = createFile(fileName, -1); // creating file struct in order to compare
+            Node *refNode = existsNode(fileSystemList, cmpFiles, newFile);
+            free(newFile);
+            if(!refNode){ // doesn't exist, we move on
+                fprintf(outputFile, "NOT FOUND\n");
+                continue;
+            }
+
+            // removing the keyword reference
+            removeKeyword(keywordTrieRoot, cmpNodes, refNode, keywordToBeDeleted, 0);
+
+            // removing all the nodes from the trie that dont point to anything
+            cleanupTrie(keywordTrieRoot);
+
+            // printing succes message
+            fprintf(outputFile, "OK\n");
+        } else if(strcmp(operation, "FIND") == 0){
+            char keyword[101];
+            fscanf(inputFile, "%s", keyword);
+            // iterating throught the trie and printing the ref nodes
+            int res = printReferencedFiles(keywordTrieRoot, keyword, 0, outputFile);
+
+            // err msg if there s nothing to print
+            if(res == -1){
+                fprintf(outputFile, "EMPTY\n");
+            }
+        } else if(strcmp(operation, "PREFIX") == 0){
+            
         } else if(strcmp(operation, "PRINT") == 0){
             char keyword[101];
             int showsSomething = showKeyWords(keywordTrieRoot, keyword, 0, outputFile);

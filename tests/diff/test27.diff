@@ -1,11 +1,9 @@
---- temp.out.norm	2026-05-12 11:27:06.497183273 +0300
-+++ tests/out/test27.out.norm	2026-05-12 11:27:06.498183242 +0300
-@@ -5,3 +5,15 @@
+--- temp.out.norm	2026-05-12 20:22:23.626233148 +0300
++++ tests/out/test27.out.norm	2026-05-12 20:22:23.627233140 +0300
+@@ -7,3 +7,13 @@
  OK
  OK
- OK
-+OK
-+3 BoydStevens EthanMatthews Victor
+ 3 BoydStevens EthanMatthews Victor
 +3 BoydStevens Victor EthanMatthews
 +2 BoydStevens Victor
 +OK

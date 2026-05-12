@@ -1,6 +1,6 @@
---- temp.out.norm	2026-05-12 11:27:07.041443824 +0300
-+++ tests/out/test73.out.norm	2026-05-12 11:27:07.042166650 +0300
-@@ -6,3 +6,18 @@
+--- temp.out.norm	2026-05-12 20:22:24.242228341 +0300
++++ tests/out/test73.out.norm	2026-05-12 20:22:24.243228334 +0300
+@@ -6,4 +6,18 @@
  OK
  OK
  OK
@@ -8,7 +8,7 @@
 +2 gopo gumball
 +3 gladiatorul godfather gopo
 +3 gladiatorul godfather greu_de_ucis
-+OK
+ OK
 +1 gumball
 +OK
 +1 gopo

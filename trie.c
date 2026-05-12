@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <string.h>
 #include "trie.h"
 #include "lists.h"
@@ -33,8 +34,35 @@ TrieNode *addWord(TrieNode *root, char *word, Node *referenceNode){
     return p;
 }
 
+// Based on a keyword, it prints the names of all files referenced in the last node
+int printReferencedFiles(TrieNode *root, char *keyword, int lvl, FILE *outputFile){
+    // arrived to the last node
+    if(lvl == strlen(keyword) - 1) {
+        root = root->children[keyword[lvl] - 'a']; 
+        if(!root || root->numOfWords == 0) // keyword doesnt exist
+            return -1;
+        Node *p = root->listOfNodes->head;
+        fprintf(outputFile, "%d ", root->numOfWords);
+        while(p != NULL){
+            File *f = (File *)((Node *)p->content)->content;
+            fprintf(outputFile, "%s ", f->id);
+            p = p->next;
+        }
+        fprintf(outputFile, "\n");
+        return 1;
+    } else {
+        int ind = keyword[lvl] - 'a';
+        if(root->children[ind] == NULL){ // keyword doesnt exist
+            return -1;
+        }
+        else
+            return printReferencedFiles(root->children[ind], keyword, lvl+1, outputFile);
+    }
+    return -1;
+}
+
 // Removes the refrence of a file node from the tree
-void removeRefrenceFromWord(TrieNode *root, int (*cmp)(void *, void *), Node *nodeToBeDeleted){
+void removeRefrenceWord(TrieNode *root, int (*cmp)(void *, void *), Node *nodeToBeDeleted){
     // checking if the terminal node containts a ref to the file
     if(root->numOfWords != 0 && existsNode(root->listOfNodes, cmp, nodeToBeDeleted)){
         // deleting the reffrence
@@ -45,9 +73,32 @@ void removeRefrenceFromWord(TrieNode *root, int (*cmp)(void *, void *), Node *no
     // iterating through every child
     for (int i = 0; i < 26; i++) {
         if (root->children[i] != NULL) {
-            removeRefrenceFromWord(root->children[i], cmp, nodeToBeDeleted);
+            removeRefrenceWord(root->children[i], cmp, nodeToBeDeleted);
         }
     }
+}
+
+// Removes the refrence of a file node from one keyword
+void removeKeyword(TrieNode *root, int (*cmp)(void *, void *), Node *nodeToBeDeleted, char *keyword, int lvl){
+    // checking if the terminal node containts a ref to the file
+    if(lvl == strlen(keyword)-1){
+        int ind = keyword[lvl] - 'a';
+        root = root->children[ind];
+        if(root->numOfWords != 0 && existsNode(root->listOfNodes, cmp, nodeToBeDeleted)){
+            // deleting the reference
+            removeNode(root->listOfNodes, cmp, nodeToBeDeleted);
+            root->numOfWords--;
+        }
+    }else{ // navigating the keyword
+        int ind = keyword[lvl] - 'a';
+        if(root->children[ind] == NULL){
+            return;
+        }
+        else
+            removeKeyword(root->children[ind], cmp, nodeToBeDeleted, keyword, lvl+1);
+    }
+
+    
 }
 
 // removes all the nodes in the trie that dont serve a meaning

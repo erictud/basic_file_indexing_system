@@ -1,20 +1,12 @@
---- temp.out.norm	2026-05-12 11:27:06.448506365 +0300
-+++ tests/out/test22.out.norm	2026-05-12 11:27:06.449595805 +0300
-@@ -19,3 +19,17 @@
- warlord 1 Khotun
+--- temp.out.norm	2026-05-12 19:21:31.238883747 +0300
++++ tests/out/test22.out.norm	2026-05-12 19:21:31.240883720 +0300
+@@ -20,9 +20,7 @@
  warrior 1 Atsu
  yotei 1 Atsu
-+2 JinSakai Masako
-+2 Atsu JinSakai
-+OK
-+ghost 2 Atsu JinSakai
-+legend 1 JinSakai
-+mongol 1 Khotun
-+ronin 1 Atsu
-+samurai 2 JinSakai Masako
-+survivor 1 Yuna
-+thief 1 Yuna
-+tsushima 1 JinSakai
-+vengeance 1 Masako
-+warrior 1 Atsu
-+yotei 1 Atsu
+ 2 JinSakai Masako
+-EMPTY
+ 2 Atsu JinSakai
+-EMPTY
+ OK
+ ghost 2 Atsu JinSakai
+ legend 1 JinSakai

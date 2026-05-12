@@ -1,21 +1,12 @@
---- temp.out.norm	2026-05-12 11:27:06.438529358 +0300
-+++ tests/out/test21.out.norm	2026-05-12 11:27:06.439624278 +0300
-@@ -19,3 +19,18 @@
- spartan 1 Kratos
+--- temp.out.norm	2026-05-12 19:21:31.225883921 +0300
++++ tests/out/test21.out.norm	2026-05-12 19:21:31.226883908 +0300
+@@ -20,9 +20,7 @@
  valkyrie 1 Freya
  wisdom 1 Mimir
-+2 Atreus Kratos
-+2 Atreus Mimir
-+OK
-+EMPTY
-+arrows 1 Atreus
-+blacksmith 1 Brok
-+dwarf 1 Brok
-+giant 2 Atreus Mimir
-+god 2 Atreus Kratos
-+goddess 1 Freya
-+loki 1 Atreus
-+rage 1 Kratos
-+seidr 1 Freya
-+spartan 1 Kratos
-+wisdom 1 Mimir
+ 2 Atreus Kratos
+-EMPTY
+ 2 Atreus Mimir
+-EMPTY
+ OK
+ EMPTY
+ arrows 1 Atreus
