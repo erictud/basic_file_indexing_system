@@ -1,0 +1,35 @@
+--- temp.out.norm	2026-05-12 09:14:43.531279644 +0300
++++ tests/out/test02.out.norm	2026-05-12 09:14:43.532279636 +0300
+@@ -3,11 +3,11 @@
+ OK
+ OK
+ OK
+-force 3 YodaMaster LukeSkywalker DarthVader
+-jedi 2 YodaMaster LukeSkywalker
++force 3 DarthVader LukeSkywalker YodaMaster
++jedi 2 LukeSkywalker YodaMaster
+ leader 1 PrincessLeia
+-lightsaber 2 LukeSkywalker DarthVader
+-rebel 2 PrincessLeia HanSolo
++lightsaber 2 DarthVader LukeSkywalker
++rebel 2 HanSolo PrincessLeia
+ sith 1 DarthVader
+ smuggler 1 HanSolo
+ wisdom 1 YodaMaster
+@@ -15,11 +15,11 @@
+ OK
+ droid 1 R2D2
+ emperor 1 EmperorPalpatine
+-force 3 YodaMaster LukeSkywalker DarthVader
+-jedi 2 YodaMaster LukeSkywalker
++force 3 DarthVader LukeSkywalker YodaMaster
++jedi 2 LukeSkywalker YodaMaster
+ leader 1 PrincessLeia
+-lightsaber 2 LukeSkywalker DarthVader
+-rebel 3 R2D2 PrincessLeia HanSolo
+-sith 2 EmperorPalpatine DarthVader
++lightsaber 2 DarthVader LukeSkywalker
++rebel 3 HanSolo PrincessLeia R2D2
++sith 2 DarthVader EmperorPalpatine
+ smuggler 1 HanSolo
+ wisdom 1 YodaMaster

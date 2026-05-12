@@ -1,0 +1,24 @@
+--- temp.out.norm	2026-05-12 09:14:43.558279420 +0300
++++ tests/out/test04.out.norm	2026-05-12 09:14:43.559279412 +0300
+@@ -3,8 +3,8 @@
+ OK
+ OK
+ OK
+-assassin 5 EzioAuditore EdwardKenway ConnorKenway BayekOfSiwa AltairIbnLaAhad
+-brotherhood 2 EzioAuditore AltairIbnLaAhad
++assassin 5 AltairIbnLaAhad BayekOfSiwa ConnorKenway EdwardKenway EzioAuditore
++brotherhood 2 AltairIbnLaAhad EzioAuditore
+ caribbean 1 EdwardKenway
+ crusades 1 AltairIbnLaAhad
+ egypt 1 BayekOfSiwa
+@@ -16,8 +16,8 @@
+ OK
+ OK
+ OK
+-assassin 7 EzioAuditore EvieFreye EdwardKenway ConnorKenway BayekOfSiwa BasimIbnIshaq AltairIbnLaAhad
+-brotherhood 3 EzioAuditore Eivor AltairIbnLaAhad
++assassin 7 AltairIbnLaAhad BasimIbnIshaq BayekOfSiwa ConnorKenway EdwardKenway EvieFreye EzioAuditore
++brotherhood 3 AltairIbnLaAhad Eivor EzioAuditore
+ caribbean 1 EdwardKenway
+ crusades 1 AltairIbnLaAhad
+ egypt 1 BayekOfSiwa

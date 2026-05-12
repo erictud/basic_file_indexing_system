@@ -15,6 +15,8 @@ typedef struct List {
 List *createList(); 
 // adds node to list
 Node *addNode(List *list, void *content);
+// checks if a nodes exists based on a function 
+Node *existsNode(List *list, int (*cmp)(void *, void *), void *contentRef);
 // removes node from list based on a comparing function
 void removeNode(List *list, int (*cmp)(void *, void *), void *cmpContent);
 // frees memory from a list

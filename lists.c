@@ -32,6 +32,17 @@ Node *addNode(List *list, void *content){
     return newNode;
 }
  
+// checks if a node exists based on a comparing function
+Node *existsNode(List *list, int (*cmp)(void *, void *), void *contentRef){
+    Node *p = list->head;
+    while(p){
+        if(cmp(p->content, contentRef) == 1)
+            return p;
+        p = p->next;
+    }
+    return NULL;
+}
+
 // removes an element based on a comparison function passed as param
 void removeNode(List *list, int (*cmp)(void *, void *), void *cmpContent){
     Node *p = list->head;
@@ -39,12 +50,15 @@ void removeNode(List *list, int (*cmp)(void *, void *), void *cmpContent){
         if(cmp(p->content, cmpContent) == 1){ 
             // found element that needs to be deleted
             if(p->next == NULL){ // del last node
-                if(list->head == list->tail) // only one node
+                if(list->head == list->tail) // del the only one node
                     list->head = list->tail = NULL;
-                else
+                else{
                     list->tail = list->tail->prev;
+                    list->tail->next = NULL;
+                }
             }else if(p->prev == NULL){ // del first node
                 list->head = list->head->next;
+                list->head->prev = NULL;
             }else{
                 p->prev->next = p->next;
                 p->next->prev = p->prev;

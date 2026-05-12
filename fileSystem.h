@@ -1,5 +1,9 @@
-#ifndef FILE
-#define FILE
+#include "lists.h"
+#include "trie.h"
+#include <stdio.h>
+
+#ifndef FILE_FUNC
+#define FILE_FUNC
 
 typedef struct File {
     int score;
@@ -8,5 +12,12 @@ typedef struct File {
 
 // creates a new file identifier struct
 File *createFile(char *name, int score);
-
+// sorts a list of file stored as pointer nodes by names
+void sortFilesByName(List *list);
+// displays all the keywords
+void showKeyWords(TrieNode *root, char *keyword, int pos, FILE *outputFilePtr);
+// cmp two file structs based on name
+int cmpFiles(void *content, void *refContent);
+// cmp two nodes based on the file content that they are holding
+int cmpNodes(void *node1, void *node2);
 #endif

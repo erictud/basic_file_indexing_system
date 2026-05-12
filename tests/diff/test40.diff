@@ -1,0 +1,19 @@
+--- temp.out.norm	2026-05-12 10:39:30.502900217 +0300
++++ tests/out/test40.out.norm	2026-05-12 10:39:30.504900190 +0300
+@@ -4,3 +4,16 @@
+ OK
+ OK
+ OK
++OK
++OK
++4 DustinHenderson ElevenHopper HopperChief MaxMayfield
++2 DustinHenderson MaxMayfield
++4 DustinHenderson ElevenHopper HopperChief MaxMayfield
++1 ElevenHopper
++2 DustinHenderson MaxMayfield
++chief 1 HopperChief
++hawkins 4 DustinHenderson ElevenHopper HopperChief MaxMayfield
++hero 1 ElevenHopper
++party 2 DustinHenderson MaxMayfield
++psychic 1 ElevenHopper
++upsidedown 1 ElevenHopper

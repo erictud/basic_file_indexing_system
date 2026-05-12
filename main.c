@@ -7,6 +7,10 @@
 #include "fileSystem.h"
 
 int main(){
+    // Input files
+    FILE *inputFile = fopen("indexare.in", "r");
+    FILE *outputFile = fopen("indexare.out", "w");
+
     // Initializing data structures
     List *fileSystemList = createList();
     TrieNode *keywordTrieRoot = createTrieNode();
@@ -14,31 +18,70 @@ int main(){
     // Getting input - reading every operations
     int numOfOperations;
     char operation[21];
-    scanf("%d", &numOfOperations);
-
+    fscanf(inputFile, "%d", &numOfOperations);
     for(int i = 0; i < numOfOperations; i++){
-        scanf("%s", operation);
+        fscanf(inputFile, "%s", operation);
 
         // add - create a new node in fileSystemList
         //     - put all the keywords in the trie (keywordTrieRoot)
         if(strcmp(operation, "ADD") == 0){
-            char fileName[21], keyword[41];
+            // creating new file
+            char fileName[101], keyword[101];
             int score, numOfKeywords;
-
-            scanf("%s %d", fileName, &score);
+            fscanf(inputFile, "%s %d", fileName, &score);
             File *newFile = createFile(fileName, score);
+
+            // checking if exists
+            if(existsNode(fileSystemList, cmpFiles, newFile)){
+                // already exists -> freeing up mem and continuing
+                free(newFile->id);
+                free(newFile);
+                continue;
+            }
+
             // adding to the list
             Node *referenceNode = addNode(fileSystemList, (void *)newFile);
 
             // reading keywords and adding to trie
-            scanf("%d", &numOfKeywords);
+            fscanf(inputFile, "%d", &numOfKeywords);
             for(int j = 0; j < numOfKeywords; j++){
-                scanf("%s", keyword);
-                addWord(keywordTrieRoot, keyword, referenceNode);
+                fscanf(inputFile, "%s", keyword);
+                TrieNode *terminalLetter = addWord(keywordTrieRoot, keyword, referenceNode);
+
+                // refernces to files with a keyword need to be ordered => sort them after 
+                // every keyword insert
+                sortFilesByName(terminalLetter->listOfNodes);
             }
 
             // printing succes message
-            printf("OK\n");
+            fprintf(outputFile, "OK\n");
+        } else if(strcmp(operation, "DEL") == 0){
+            char fileName[41];
+            fscanf(inputFile, "%s", fileName);
+
+            // finding the file that needs to be deleted
+            File *newFile = createFile(fileName, -1); // creating file struct in order to compare
+            Node *nodeToBeDeleted = existsNode(fileSystemList, cmpFiles, newFile);
+            free(newFile);
+            if(!nodeToBeDeleted){ // doesn't exist, we move on
+                continue;
+            }
+
+            // deleting references of the file from the keyword trie 
+            removeRefrenceFromWord(keywordTrieRoot, cmpNodes, nodeToBeDeleted);
+
+            // cleaning keyword trie
+            cleanupTrie(keywordTrieRoot);
+
+            // deleting file from the list
+            removeNode(fileSystemList, cmpFiles, nodeToBeDeleted->content);
+
+            // printing succes message
+            fprintf(outputFile, "OK\n");
+        } else if(strcmp(operation, "PRINT") == 0){
+            char keyword[101];
+            showKeyWords(keywordTrieRoot, keyword, 0, outputFile);
         }
+
     }
 }

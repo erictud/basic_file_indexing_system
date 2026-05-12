@@ -1,0 +1,33 @@
+--- temp.out.norm	2026-05-12 10:39:30.158904719 +0300
++++ tests/out/test22.out.norm	2026-05-12 10:39:30.161904680 +0300
+@@ -5,8 +5,12 @@
+ OK
+ OK
+ OK
++OK
++OK
+ ghost 2 Atsu JinSakai
++legend 1 JinSakai
+ mongol 1 Khotun
++ronin 1 Atsu
+ samurai 2 JinSakai Masako
+ survivor 1 Yuna
+ thief 1 Yuna
+@@ -15,3 +19,17 @@
+ warlord 1 Khotun
+ warrior 1 Atsu
+ yotei 1 Atsu
++2 JinSakai Masako
++2 Atsu JinSakai
++OK
++ghost 2 Atsu JinSakai
++legend 1 JinSakai
++mongol 1 Khotun
++ronin 1 Atsu
++samurai 2 JinSakai Masako
++survivor 1 Yuna
++thief 1 Yuna
++tsushima 1 JinSakai
++vengeance 1 Masako
++warrior 1 Atsu
++yotei 1 Atsu

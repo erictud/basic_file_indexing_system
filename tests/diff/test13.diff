@@ -1,0 +1,28 @@
+--- temp.out.norm	2026-05-12 10:39:29.984906996 +0300
++++ tests/out/test13.out.norm	2026-05-12 10:39:29.986906970 +0300
+@@ -3,3 +3,25 @@
+ OK
+ OK
+ OK
++OK
++OK
++ackerman 1 MikasaAckerman
++eldian 2 ArminArlert ErenYeager
++founder 1 ErenYeager
++protector 1 MikasaAckerman
++shifter 1 ErenYeager
++soldier 1 MikasaAckerman
++strategist 1 ArminArlert
++survey 2 ArminArlert MikasaAckerman
++titan 1 ErenYeager
++OK
++ackerman 1 MikasaAckerman
++eldian 2 ArminArlert ErenYeager
++founder 1 ErenYeager
++protector 1 MikasaAckerman
++shifter 1 ErenYeager
++soldier 1 MikasaAckerman
++strategist 1 ArminArlert
++survey 2 ArminArlert MikasaAckerman
++titan 2 AnnieLeonhart ErenYeager
++warrior 1 AnnieLeonhart

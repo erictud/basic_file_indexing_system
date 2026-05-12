@@ -1,0 +1,13 @@
+--- temp.out.norm	2026-05-12 09:14:44.095274962 +0300
++++ tests/out/test42.out.norm	2026-05-12 09:14:44.097274945 +0300
+@@ -7,8 +7,8 @@
+ carte 1 fisier2
+ catalog 1 fisier5
+ concurs 1 fisier3
+-elev 2 fisier4 fisier1
++elev 2 fisier1 fisier4
+ lectura 1 fisier2
+ premiu 1 fisier4
+-scoala 2 fisier5 fisier1
++scoala 2 fisier1 fisier5
+ teme 1 fisier3

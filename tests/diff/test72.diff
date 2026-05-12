@@ -1,0 +1,17 @@
+--- temp.out.norm	2026-05-12 10:39:31.114892207 +0300
++++ tests/out/test72.out.norm	2026-05-12 10:39:31.116892181 +0300
+@@ -2,3 +2,14 @@
+ OK
+ OK
+ OK
++EMPTY
++1 eugen
++1 enescu
++OK
++2 elisabeth enescu
++compozitor 2 elisabeth enescu
++dramaturg 1 eugen
++literatura 1 eminescu
++pian 1 elisabeth
++poet 1 eminescu
++vioara 1 enescu

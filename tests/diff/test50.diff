@@ -1,0 +1,10 @@
+--- temp.out.norm	2026-05-12 10:39:30.696136719 +0300
++++ tests/out/test50.out.norm	2026-05-12 10:39:30.699511004 +0300
+@@ -25,6 +25,7 @@
+ OK
+ OK
+ OK
++NOT FOUND
+ OK
+ adancime 10 doc1 doc11 doc13 doc21 doc22 doc25 doc4 doc7 doc8 doc9
+ adrenalina 9 doc10 doc16 doc18 doc20 doc21 doc3 doc4 doc6 doc8
