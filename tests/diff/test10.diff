@@ -1,19 +1,15 @@
---- temp.out.norm	2026-05-12 10:25:47.802651870 +0300
-+++ tests/out/test10.out.norm	2026-05-12 10:25:47.806651818 +0300
-@@ -0,0 +1,16 @@
-+OK
-+OK
-+OK
-+OK
-+OK
-+hawkins 3 DustinHenderson ElevenHopper MikeWheeler
-+party 2 DustinHenderson MikeWheeler
-+psychic 1 ElevenHopper
-+upsidedown 1 ElevenHopper
-+OK
-+OK
-+chief 1 HopperChief
-+hawkins 5 DustinHenderson ElevenHopper HopperChief MaxMayfield MikeWheeler
-+party 3 DustinHenderson MaxMayfield MikeWheeler
-+psychic 1 ElevenHopper
-+upsidedown 2 ElevenHopper HopperChief
+--- temp.out.norm	2026-05-12 11:13:56.905653495 +0300
++++ tests/out/test10.out.norm	2026-05-12 11:13:56.906653543 +0300
+@@ -7,7 +7,6 @@
+ party 2 DustinHenderson MikeWheeler
+ psychic 1 ElevenHopper
+ upsidedown 1 ElevenHopper
+-EMPTY
+ OK
+ OK
+ chief 1 HopperChief
+@@ -15,4 +14,3 @@
+ party 3 DustinHenderson MaxMayfield MikeWheeler
+ psychic 1 ElevenHopper
+ upsidedown 2 ElevenHopper HopperChief
+-EMPTY

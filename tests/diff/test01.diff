@@ -1,25 +1,15 @@
---- temp.out.norm	2026-05-12 09:14:43.517279761 +0300
-+++ tests/out/test01.out.norm	2026-05-12 09:14:43.519279744 +0300
-@@ -4,7 +4,7 @@
- OK
- OK
- asgardian 1 Thor
--avenger 4 Thor IronMan CaptainAmerica BlackWidow
-+avenger 4 BlackWidow CaptainAmerica IronMan Thor
- billionaire 1 IronMan
- genius 1 IronMan
- infinity 1 Thanos
-@@ -14,11 +14,11 @@
- villain 1 Thanos
- OK
- asgardian 1 Thor
--avenger 5 Thor IronMan Hulk CaptainAmerica BlackWidow
-+avenger 5 BlackWidow CaptainAmerica Hulk IronMan Thor
- billionaire 1 IronMan
- genius 1 IronMan
- infinity 1 Thanos
- spy 1 BlackWidow
--supersoldier 2 Hulk CaptainAmerica
-+supersoldier 2 CaptainAmerica Hulk
+--- temp.out.norm	2026-05-12 11:13:56.811649034 +0300
++++ tests/out/test01.out.norm	2026-05-12 11:13:56.812649081 +0300
+@@ -12,7 +12,6 @@
+ supersoldier 1 CaptainAmerica
  thunder 1 Thor
  villain 1 Thanos
+-EMPTY
+ OK
+ asgardian 1 Thor
+ avenger 5 BlackWidow CaptainAmerica Hulk IronMan Thor
+@@ -23,4 +22,3 @@
+ supersoldier 2 CaptainAmerica Hulk
+ thunder 1 Thor
+ villain 1 Thanos
+-EMPTY

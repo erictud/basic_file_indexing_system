@@ -1,41 +1,7 @@
---- temp.out.norm	2026-05-12 10:39:30.837895832 +0300
-+++ tests/out/test58.out.norm	2026-05-12 10:39:30.839895806 +0300
-@@ -41,6 +41,10 @@
- usturoi 1 r2
- visine 1 r1
- zahar 2 r1 r2
-+OK
-+OK
-+OK
-+OK
- apa 2 r1 r2
- ardei 1 r2
- boia 1 r1
-@@ -50,7 +54,7 @@
- caise 1 r1
- cartof 1 r2
- ceapa 1 r2
--cimbru 1 r1
-+cimbru 2 r1 r2
- ciuperci 1 r2
- drojdie 2 r1 r2
- faina 2 r1 r2
-@@ -71,14 +75,118 @@
- ou 2 r1 r2
- patrunjel 1 r2
- pere 1 r1
--piper 1 r1
-+piper 2 r1 r2
- prune 1 r1
- rosii 1 r2
- sare 2 r1 r2
-+scortisoara 1 r1
- smantana 1 r1
- telina 1 r2
- ulei 2 r1 r2
- unt 1 r1
- usturoi 1 r2
-+vanilie 1 r1
+--- temp.out.norm	2026-05-12 11:27:06.851172470 +0300
++++ tests/out/test58.out.norm	2026-05-12 11:27:06.852172439 +0300
+@@ -88,3 +88,105 @@
+ vanilie 1 r1
  visine 1 r1
  zahar 2 r1 r2
 +OK

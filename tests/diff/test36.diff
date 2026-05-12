@@ -1,10 +1,9 @@
---- temp.out.norm	2026-05-12 10:39:30.427901198 +0300
-+++ tests/out/test36.out.norm	2026-05-12 10:39:30.430901159 +0300
-@@ -4,3 +4,18 @@
+--- temp.out.norm	2026-05-12 11:27:06.598180191 +0300
++++ tests/out/test36.out.norm	2026-05-12 11:27:06.599180160 +0300
+@@ -5,3 +5,17 @@
  OK
  OK
  OK
-+OK
 +OK
 +2 Atreus Kratos
 +2 Kratos Atreus

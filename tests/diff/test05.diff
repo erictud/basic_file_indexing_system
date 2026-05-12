@@ -1,27 +1,15 @@
---- temp.out.norm	2026-05-12 09:14:43.572279304 +0300
-+++ tests/out/test05.out.norm	2026-05-12 09:14:43.574279288 +0300
-@@ -4,18 +4,18 @@
- OK
- OK
- boston 1 Joel
--fireflies 3 Riley Marlene Joel
--immune 2 Riley Ellie
-+fireflies 3 Joel Marlene Riley
-+immune 2 Ellie Riley
- infected 1 Ellie
+--- temp.out.norm	2026-05-12 11:13:56.853651027 +0300
++++ tests/out/test05.out.norm	2026-05-12 11:13:56.854651075 +0300
+@@ -10,7 +10,6 @@
  leader 1 Marlene
  smuggler 1 Tess
--survivor 3 Tess Joel Ellie
-+survivor 3 Ellie Joel Tess
+ survivor 3 Ellie Joel Tess
+-EMPTY
  OK
  boston 1 Joel
--fireflies 3 Riley Marlene Joel
--immune 2 Riley Ellie
-+fireflies 3 Joel Marlene Riley
-+immune 2 Ellie Riley
- infected 1 Ellie
- jackson 1 Tommy
+ fireflies 3 Joel Marlene Riley
+@@ -20,4 +19,3 @@
  leader 1 Marlene
  smuggler 1 Tess
--survivor 4 Tommy Tess Joel Ellie
-+survivor 4 Ellie Joel Tess Tommy
+ survivor 4 Ellie Joel Tess Tommy
+-EMPTY

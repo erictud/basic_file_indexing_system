@@ -25,7 +25,7 @@ TrieNode *addWord(TrieNode *root, char *word, Node *referenceNode){
         }
         p = p->children[letterIndex];
         // linking last letter node to the reference node from the list
-        if(i == strlen(word) - 1){
+        if(i == strlen(word) - 1 && !existsNode(p->listOfNodes, cmpNodes, referenceNode)){
             p->numOfWords++;
             addNode(p->listOfNodes, referenceNode);
         }

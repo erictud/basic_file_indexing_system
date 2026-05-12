@@ -1,10 +1,9 @@
---- temp.out.norm	2026-05-12 10:39:30.409901434 +0300
-+++ tests/out/test35.out.norm	2026-05-12 10:39:30.411901408 +0300
-@@ -4,3 +4,18 @@
+--- temp.out.norm	2026-05-12 11:27:06.583180649 +0300
++++ tests/out/test35.out.norm	2026-05-12 11:27:06.585180587 +0300
+@@ -5,3 +5,17 @@
  OK
  OK
  OK
-+OK
 +OK
 +3 Dina Ellie Joel
 +3 Ellie Abby Joel

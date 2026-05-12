@@ -1,10 +1,39 @@
---- temp.out.norm	2026-05-12 10:39:30.696136719 +0300
-+++ tests/out/test50.out.norm	2026-05-12 10:39:30.699511004 +0300
-@@ -25,6 +25,7 @@
+--- temp.out.norm	2026-05-12 11:13:57.375232141 +0300
++++ tests/out/test50.out.norm	2026-05-12 11:13:57.378675952 +0300
+@@ -177,7 +177,6 @@
+ vis 8 doc1 doc13 doc18 doc19 doc24 doc25 doc3 doc4
+ zapada 5 doc0 doc12 doc18 doc21 doc5
+ zgomot 4 doc11 doc12 doc20 doc3
+-EMPTY
  OK
- OK
- OK
-+NOT FOUND
  OK
  adancime 10 doc1 doc11 doc13 doc21 doc22 doc25 doc4 doc7 doc8 doc9
- adrenalina 9 doc10 doc16 doc18 doc20 doc21 doc3 doc4 doc6 doc8
+@@ -330,7 +329,6 @@
+ vis 8 doc1 doc13 doc18 doc19 doc24 doc25 doc3 doc4
+ zapada 5 doc0 doc18 doc2 doc21 doc5
+ zgomot 3 doc11 doc20 doc3
+-EMPTY
+ OK
+ OK
+ OK
+@@ -486,7 +484,6 @@
+ vis 7 doc1 doc13 doc18 doc19 doc24 doc3 doc4
+ zapada 3 doc18 doc2 doc21
+ zgomot 3 doc11 doc20 doc3
+-EMPTY
+ OK
+ adancime 8 doc1 doc11 doc13 doc21 doc22 doc4 doc7 doc8
+ adrenalina 8 doc10 doc16 doc20 doc21 doc3 doc4 doc6 doc8
+@@ -638,7 +635,6 @@
+ vis 6 doc1 doc13 doc19 doc24 doc3 doc4
+ zapada 2 doc2 doc21
+ zgomot 3 doc11 doc20 doc3
+-EMPTY
+ OK
+ adancime 7 doc1 doc11 doc13 doc21 doc4 doc7 doc8
+ adrenalina 8 doc10 doc16 doc20 doc21 doc3 doc4 doc6 doc8
+@@ -790,4 +786,3 @@
+ vis 6 doc1 doc13 doc19 doc24 doc3 doc4
+ zapada 2 doc2 doc21
+ zgomot 3 doc11 doc20 doc3
+-EMPTY

@@ -1,5 +1,5 @@
---- temp.out.norm	2026-05-12 10:39:31.070060123 +0300
-+++ tests/out/test70.out.norm	2026-05-12 10:39:31.081774556 +0300
+--- temp.out.norm	2026-05-12 11:27:07.006817067 +0300
++++ tests/out/test70.out.norm	2026-05-12 11:27:07.013565089 +0300
 @@ -3,6 +3,7 @@
  OK
  OK
@@ -19,22 +19,21 @@
  adancime 4 doc0 doc3 doc5 doc6
  adrenalina 6 doc1 doc2 doc3 doc4 doc5 doc6
  aer 4 doc1 doc3 doc5 doc6
-@@ -307,6 +311,10 @@
+@@ -307,7 +311,10 @@
  OK
  OK
  OK
 +3 doc0 doc7 doc6
 +5 doc4 doc7 doc6 doc5 doc3
-+OK
+ OK
 +5 doc2 doc4 doc8 doc6 doc5
  adancime 6 doc0 doc3 doc5 doc6 doc7 doc8
  adrenalina 6 doc2 doc3 doc4 doc5 doc6 doc8
  aer 5 doc3 doc5 doc6 doc7 doc8
-@@ -457,6 +465,12 @@
- vis 6 doc3 doc4 doc5 doc6 doc7 doc8
+@@ -459,6 +466,11 @@
  zapada 5 doc3 doc5 doc6 doc7 doc8
  zgomot 7 doc2 doc3 doc4 doc5 doc6 doc7 doc8
-+NOT FOUND
+ NOT FOUND
 +5 doc2 doc4 doc5 doc6 doc7
 +5 doc3 doc4 doc5 doc7 doc8
 +6 doc2 doc3 doc5 doc6 doc7 doc8
@@ -43,7 +42,7 @@
  adancime 6 doc0 doc3 doc5 doc6 doc7 doc8
  adrenalina 6 doc2 doc3 doc4 doc5 doc6 doc8
  aer 5 doc3 doc5 doc6 doc7 doc8
-@@ -521,7 +535,7 @@
+@@ -523,7 +535,7 @@
  liniste 7 doc0 doc3 doc4 doc5 doc6 doc7 doc8
  lume 5 doc3 doc4 doc5 doc6 doc8
  lumina 6 doc2 doc3 doc4 doc5 doc6 doc8
@@ -52,7 +51,7 @@
  lup 5 doc3 doc4 doc5 doc6 doc8
  mal 6 doc2 doc3 doc4 doc5 doc7 doc8
  mare 5 doc2 doc3 doc5 doc6 doc8
-@@ -607,8 +621,15 @@
+@@ -609,8 +621,15 @@
  vis 6 doc3 doc4 doc5 doc6 doc7 doc8
  zapada 5 doc3 doc5 doc6 doc7 doc8
  zgomot 7 doc2 doc3 doc4 doc5 doc6 doc7 doc8
@@ -68,7 +67,7 @@
  OK
  OK
  adancime 8 doc0 doc10 doc11 doc3 doc5 doc6 doc7 doc9
-@@ -625,7 +646,7 @@
+@@ -627,7 +646,7 @@
  barca 8 doc10 doc11 doc3 doc4 doc5 doc6 doc7 doc9
  barcagiu 8 doc10 doc11 doc3 doc4 doc5 doc6 doc7 doc9
  baterii 7 doc10 doc11 doc3 doc4 doc5 doc6 doc7
@@ -77,163 +76,10 @@
  bocanci 8 doc11 doc2 doc3 doc4 doc5 doc6 doc7 doc9
  brad 7 doc10 doc11 doc3 doc4 doc5 doc6 doc9
  busola 8 doc0 doc10 doc11 doc3 doc4 doc5 doc6 doc9
-@@ -913,3 +934,934 @@
- vis 7 doc10 doc11 doc3 doc4 doc5 doc6 doc7
+@@ -1068,3 +1087,781 @@
  zapada 7 doc10 doc11 doc12 doc3 doc5 doc6 doc7
  zgomot 8 doc10 doc11 doc2 doc3 doc4 doc5 doc6 doc7
-+NOT FOUND
-+OK
-+adancime 7 doc0 doc10 doc11 doc3 doc5 doc6 doc7
-+adrenalina 7 doc10 doc11 doc2 doc3 doc4 doc5 doc6
-+aer 7 doc10 doc11 doc12 doc3 doc5 doc6 doc7
-+afaceri 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+aglomeratie 9 doc0 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+amintiri 7 doc10 doc11 doc3 doc4 doc5 doc6 doc7
-+amurg 6 doc11 doc2 doc3 doc5 doc6 doc7
-+ancora 6 doc10 doc11 doc3 doc4 doc5 doc6
-+apa 6 doc10 doc11 doc3 doc5 doc6 doc7
-+aventura 6 doc10 doc11 doc2 doc5 doc6 doc7
-+bani 8 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc7
-+barca 7 doc10 doc11 doc3 doc4 doc5 doc6 doc7
-+barcagiu 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+baterii 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+beton 7 doc0 doc10 doc11 doc3 doc5 doc6 doc7
-+bocanci 8 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+brad 7 doc10 doc11 doc12 doc3 doc4 doc5 doc6
-+busola 8 doc0 doc10 doc11 doc12 doc3 doc4 doc5 doc6
-+cabana 8 doc0 doc10 doc11 doc12 doc3 doc4 doc5 doc6
-+cabanier 9 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+cald 8 doc10 doc11 doc12 doc2 doc3 doc5 doc6 doc7
-+campie 8 doc0 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+canale 9 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+ceai 7 doc10 doc11 doc12 doc3 doc5 doc6 doc7
-+ceata 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+comert 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+cort 6 doc10 doc11 doc3 doc4 doc5 doc6
-+cristal 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+curaj 5 doc11 doc12 doc3 doc5 doc6
-+curat 8 doc0 doc10 doc11 doc12 doc3 doc4 doc5 doc6
-+curent 9 doc0 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+dans 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+delta 8 doc10 doc11 doc2 doc3 doc4 doc5 doc6 doc7
-+dezvoltare 7 doc10 doc11 doc2 doc4 doc5 doc6 doc7
-+dig 8 doc10 doc11 doc2 doc3 doc4 doc5 doc6 doc7
-+distractie 7 doc10 doc11 doc3 doc4 doc5 doc6 doc7
-+drum 7 doc10 doc11 doc12 doc3 doc5 doc6 doc7
-+echipa 7 doc0 doc10 doc11 doc3 doc5 doc6 doc7
-+ecou 6 doc11 doc12 doc3 doc4 doc5 doc7
-+efort 7 doc0 doc10 doc11 doc12 doc3 doc5 doc6
-+emotie 8 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+explorare 9 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+faleza 6 doc11 doc3 doc4 doc5 doc6 doc7
-+floare 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+fluviu 4 doc10 doc11 doc4 doc5
-+foc 7 doc0 doc11 doc12 doc2 doc3 doc5 doc6
-+formatiuni 7 doc10 doc11 doc12 doc3 doc4 doc5 doc7
-+frica 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+frig 7 doc10 doc11 doc12 doc2 doc5 doc6 doc7
-+gheata 6 doc0 doc10 doc11 doc5 doc6 doc7
-+harta 9 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+iarna 7 doc10 doc11 doc12 doc4 doc5 doc6 doc7
-+indigo 7 doc0 doc10 doc11 doc12 doc3 doc4 doc5
-+informatii 6 doc10 doc11 doc3 doc5 doc6 doc7
-+inot 7 doc11 doc12 doc2 doc3 doc5 doc6 doc7
-+insula 7 doc0 doc10 doc11 doc3 doc4 doc5 doc6
-+intuneric 6 doc10 doc11 doc3 doc4 doc5 doc6
-+istorie 10 doc0 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+izvor 9 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+lanterna 6 doc10 doc11 doc2 doc4 doc5 doc6
-+lemne 8 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6
-+liniste 8 doc0 doc10 doc11 doc3 doc4 doc5 doc6 doc7
-+lume 6 doc10 doc11 doc3 doc4 doc5 doc6
-+lumina 7 doc10 doc11 doc2 doc3 doc4 doc5 doc6
-+lumini 9 doc0 doc10 doc11 doc2 doc3 doc4 doc5 doc6 doc7
-+lup 7 doc10 doc11 doc12 doc3 doc4 doc5 doc6
-+mal 7 doc10 doc11 doc2 doc3 doc4 doc5 doc7
-+mare 7 doc10 doc11 doc12 doc2 doc3 doc5 doc6
-+marfa 6 doc10 doc11 doc12 doc3 doc5 doc7
-+marinari 9 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+masina 8 doc10 doc11 doc12 doc2 doc3 doc4 doc6 doc7
-+masini 7 doc10 doc11 doc2 doc4 doc5 doc6 doc7
-+mister 7 doc10 doc11 doc12 doc3 doc4 doc5 doc6
-+momeala 7 doc10 doc11 doc2 doc3 doc4 doc5 doc6
-+motor 7 doc10 doc11 doc3 doc4 doc5 doc6 doc7
-+munte 6 doc0 doc10 doc11 doc2 doc5 doc6
-+muzica 3 doc11 doc5 doc7
-+natura 6 doc10 doc11 doc12 doc2 doc5 doc6
-+nisip 7 doc10 doc11 doc2 doc3 doc4 doc5 doc6
-+noapte 9 doc0 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6
-+nor 6 doc11 doc12 doc2 doc3 doc5 doc6
-+nuca 7 doc10 doc11 doc12 doc2 doc3 doc5 doc6
-+oras 7 doc0 doc10 doc11 doc3 doc4 doc6 doc7
-+orientare 6 doc11 doc12 doc4 doc5 doc6 doc7
-+otel 9 doc0 doc10 doc11 doc2 doc3 doc4 doc5 doc6 doc7
-+padure 6 doc10 doc11 doc12 doc4 doc5 doc6
-+palmieri 7 doc10 doc11 doc2 doc3 doc4 doc5 doc6
-+pamant 8 doc10 doc11 doc2 doc3 doc4 doc5 doc6 doc7
-+parcare 6 doc10 doc11 doc2 doc3 doc5 doc7
-+pasari 8 doc10 doc11 doc12 doc2 doc3 doc5 doc6 doc7
-+patine 9 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+patura 8 doc0 doc10 doc11 doc12 doc3 doc5 doc6 doc7
-+peisaj 7 doc10 doc11 doc12 doc3 doc5 doc6 doc7
-+pelican 7 doc10 doc11 doc12 doc3 doc4 doc5 doc6
-+pescarusi 7 doc10 doc2 doc3 doc4 doc5 doc6 doc7
-+pescuit 6 doc10 doc11 doc2 doc3 doc5 doc6
-+peste 10 doc0 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+pestera 7 doc10 doc11 doc2 doc3 doc4 doc5 doc7
-+picaturi 6 doc10 doc11 doc12 doc2 doc5 doc6
-+plaja 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+plasa 6 doc10 doc11 doc12 doc5 doc6 doc7
-+ploaie 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+pod 9 doc0 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc7
-+poiana 7 doc10 doc11 doc12 doc2 doc3 doc5 doc6
-+port 6 doc10 doc11 doc3 doc4 doc5 doc6
-+povesti 8 doc0 doc10 doc11 doc12 doc2 doc3 doc5 doc6
-+poza 8 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6
-+poze 8 doc10 doc11 doc2 doc3 doc4 doc5 doc6 doc7
-+prapastie 9 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+prieteni 7 doc10 doc11 doc12 doc3 doc4 doc6 doc7
-+rasarit 7 doc10 doc11 doc3 doc4 doc5 doc6 doc7
-+rece 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+reflectie 9 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+relaxare 9 doc0 doc10 doc11 doc12 doc2 doc3 doc5 doc6 doc7
-+rucsac 7 doc10 doc12 doc2 doc3 doc4 doc5 doc6
-+salcie 7 doc10 doc11 doc2 doc4 doc5 doc6 doc7
-+sanie 6 doc10 doc11 doc12 doc3 doc5 doc6
-+sare 5 doc10 doc11 doc3 doc5 doc6
-+schi 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+scoici 7 doc0 doc10 doc11 doc12 doc5 doc6 doc7
-+semineu 9 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+sezlong 7 doc10 doc11 doc12 doc3 doc5 doc6 doc7
-+soare 7 doc10 doc11 doc12 doc3 doc4 doc5 doc6
-+somn 6 doc11 doc3 doc4 doc5 doc6 doc7
-+sport 9 doc0 doc10 doc11 doc2 doc3 doc4 doc5 doc6 doc7
-+stanca 6 doc10 doc11 doc12 doc3 doc4 doc6
-+stele 7 doc10 doc11 doc12 doc3 doc4 doc5 doc6
-+sticla 7 doc0 doc11 doc3 doc4 doc5 doc6 doc7
-+stuf 6 doc10 doc11 doc12 doc3 doc5 doc7
-+tacere 6 doc11 doc12 doc3 doc4 doc5 doc7
-+tehnologie 7 doc10 doc11 doc3 doc4 doc5 doc6 doc7
-+timp 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+transport 8 doc0 doc10 doc11 doc3 doc4 doc5 doc6 doc7
-+traseu 5 doc0 doc10 doc11 doc5 doc6
-+trezire 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+turist 8 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6
-+umbra 5 doc11 doc4 doc5 doc6 doc7
-+umbrela 6 doc10 doc11 doc12 doc3 doc4 doc5
-+undita 8 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6
-+urs 8 doc10 doc11 doc12 doc3 doc4 doc5 doc6 doc7
-+valuri 8 doc0 doc10 doc11 doc12 doc2 doc3 doc5 doc6
-+vant 6 doc10 doc11 doc12 doc3 doc5 doc6
-+vapor 9 doc10 doc11 doc12 doc2 doc3 doc4 doc5 doc6 doc7
-+vasle 4 doc11 doc2 doc4 doc6
-+viitor 5 doc10 doc2 doc3 doc5 doc6
-+vin 7 doc10 doc11 doc3 doc4 doc5 doc6 doc7
-+violet 6 doc10 doc11 doc3 doc5 doc6 doc7
-+vis 7 doc10 doc11 doc3 doc4 doc5 doc6 doc7
-+zapada 7 doc10 doc11 doc12 doc3 doc5 doc6 doc7
-+zgomot 8 doc10 doc11 doc2 doc3 doc4 doc5 doc6 doc7
-+OK
+ OK
 +OK
 +7 doc10 doc11 doc12 doc13 doc3 doc5 doc7
 +OK

@@ -1,12 +1,12 @@
---- temp.out.norm	2026-05-12 10:39:30.820896055 +0300
-+++ tests/out/test57.out.norm	2026-05-12 10:39:30.822896028 +0300
-@@ -1 +1,10 @@
+--- temp.out.norm	2026-05-12 11:27:06.840172805 +0300
++++ tests/out/test57.out.norm	2026-05-12 11:27:06.841172775 +0300
+@@ -1,4 +1,10 @@
  OK
-+OK
+ OK
 +NOT FOUND
 +OK
-+mar 1 f_edge
-+par 1 f_edge
+ mar 1 f_edge
+ par 1 f_edge
 +OK
 +par 1 f_edge
 +OK

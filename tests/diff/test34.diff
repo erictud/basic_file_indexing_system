@@ -1,10 +1,9 @@
---- temp.out.norm	2026-05-12 10:39:30.390901683 +0300
-+++ tests/out/test34.out.norm	2026-05-12 10:39:30.392901656 +0300
-@@ -4,3 +4,17 @@
+--- temp.out.norm	2026-05-12 11:27:06.571181014 +0300
++++ tests/out/test34.out.norm	2026-05-12 11:27:06.572180984 +0300
+@@ -5,3 +5,16 @@
  OK
  OK
  OK
-+OK
 +OK
 +4 AltairIbnLaAhad ConnorKenway EdwardKenway EzioAuditore
 +2 EzioAuditore AltairIbnLaAhad

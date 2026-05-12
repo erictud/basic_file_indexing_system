@@ -1,10 +1,10 @@
---- temp.out.norm	2026-05-12 10:39:30.041906250 +0300
-+++ tests/out/test16.out.norm	2026-05-12 10:39:30.043906224 +0300
-@@ -3,3 +3,22 @@
+--- temp.out.norm	2026-05-12 11:27:06.385186691 +0300
++++ tests/out/test16.out.norm	2026-05-12 11:27:06.386186661 +0300
+@@ -4,10 +4,21 @@
  OK
  OK
  OK
-+OK
+-avenger 3 DrStrange SpiderMan WandaMaximoff
 +OK
 +avenger 2 DrStrange SpiderMan
 +chaos 1 WandaMaximoff
@@ -15,11 +15,11 @@
 +witch 1 WandaMaximoff
 +OK
 +avenger 2 DrStrange SpiderMan
-+chaos 1 WandaMaximoff
-+hero 1 SpiderMan
-+multiverse 2 DrStrange SpiderMan
+ chaos 1 WandaMaximoff
+ hero 1 SpiderMan
+ multiverse 2 DrStrange SpiderMan
 +shield 1 NickFury
-+sorcerer 1 DrStrange
+ sorcerer 1 DrStrange
 +spy 1 NickFury
-+webslinger 1 SpiderMan
-+witch 1 WandaMaximoff
+ webslinger 1 SpiderMan
+ witch 1 WandaMaximoff

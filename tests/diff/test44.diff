@@ -1,11 +1,7 @@
---- temp.out.norm	2026-05-12 10:39:30.572899301 +0300
-+++ tests/out/test44.out.norm	2026-05-12 10:39:30.574899274 +0300
-@@ -23,7 +23,7 @@
- astronaut 1 doc_10
- aventura 2 doc_3 doc_8
- bani 1 doc_7
--barca 4 doc_3 doc_4 doc_4 doc_7
-+barca 3 doc_3 doc_4 doc_7
- barcagiu 1 doc_4
- baterii 1 doc_8
- belsug 1 doc_9
+--- temp.out.norm	2026-05-12 11:13:57.300672248 +0300
++++ tests/out/test44.out.norm	2026-05-12 11:13:57.302672343 +0300
+@@ -234,4 +234,3 @@
+ zapada 2 doc_1 doc_2
+ zbor 1 doc_10
+ zgomot 1 doc_7
+-EMPTY

@@ -1,17 +1,17 @@
---- temp.out.norm	2026-05-12 10:39:30.120905216 +0300
-+++ tests/out/test20.out.norm	2026-05-12 10:39:30.122905190 +0300
-@@ -3,3 +3,20 @@
+--- temp.out.norm	2026-05-12 11:27:06.428357679 +0300
++++ tests/out/test20.out.norm	2026-05-12 11:27:06.429450104 +0300
+@@ -4,10 +4,19 @@
  OK
  OK
  OK
+-fighter 1 Dina
 +OK
-+OK
-+fireflies 1 Abby
-+jackson 2 Dina JesseWilliams
-+revenge 1 Abby
-+soldier 1 Abby
-+survivor 2 Dina JesseWilliams
-+wlf 1 Abby
+ fireflies 1 Abby
+ jackson 2 Dina JesseWilliams
+ revenge 1 Abby
+ soldier 1 Abby
+ survivor 2 Dina JesseWilliams
+ wlf 1 Abby
 +OK
 +ally 1 Lev
 +fireflies 1 Abby

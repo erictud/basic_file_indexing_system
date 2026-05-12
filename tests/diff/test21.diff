@@ -1,20 +1,6 @@
---- temp.out.norm	2026-05-12 10:39:30.139904968 +0300
-+++ tests/out/test21.out.norm	2026-05-12 10:39:30.141904941 +0300
-@@ -5,14 +5,32 @@
- OK
- OK
- OK
-+OK
-+OK
- arrows 1 Atreus
- blacksmith 1 Brok
- dwarf 1 Brok
- giant 2 Atreus Mimir
- god 2 Atreus Kratos
- goddess 1 Freya
-+loki 1 Atreus
- rage 1 Kratos
- seidr 1 Freya
+--- temp.out.norm	2026-05-12 11:27:06.438529358 +0300
++++ tests/out/test21.out.norm	2026-05-12 11:27:06.439624278 +0300
+@@ -19,3 +19,18 @@
  spartan 1 Kratos
  valkyrie 1 Freya
  wisdom 1 Mimir

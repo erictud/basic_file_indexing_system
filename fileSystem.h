@@ -14,8 +14,8 @@ typedef struct File {
 File *createFile(char *name, int score);
 // sorts a list of file stored as pointer nodes by names
 void sortFilesByName(List *list);
-// displays all the keywords
-void showKeyWords(TrieNode *root, char *keyword, int pos, FILE *outputFilePtr);
+// displays all the keywords (returns 1 if printed something)
+int showKeyWords(TrieNode *root, char *keyword, int pos, FILE *outputFilePtr);
 // cmp two file structs based on name
 int cmpFiles(void *content, void *refContent);
 // cmp two nodes based on the file content that they are holding

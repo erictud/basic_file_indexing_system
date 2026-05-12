@@ -28,22 +28,25 @@ int main(){
             // creating new file
             char fileName[101], keyword[101];
             int score, numOfKeywords;
-            fscanf(inputFile, "%s %d", fileName, &score);
+            fscanf(inputFile, "%s %d %d", fileName, &score,  &numOfKeywords);
             File *newFile = createFile(fileName, score);
 
             // checking if exists
             if(existsNode(fileSystemList, cmpFiles, newFile)){
                 // already exists -> freeing up mem and continuing
+                fprintf(outputFile, "EXISTS\n");
                 free(newFile->id);
                 free(newFile);
+                // reading buffer
+                for(int j = 0; j < numOfKeywords; j++)
+                    fscanf(inputFile, "%s", keyword);
                 continue;
             }
 
             // adding to the list
             Node *referenceNode = addNode(fileSystemList, (void *)newFile);
 
-            // reading keywords and adding to trie
-            fscanf(inputFile, "%d", &numOfKeywords);
+            // adding keywords to trie
             for(int j = 0; j < numOfKeywords; j++){
                 fscanf(inputFile, "%s", keyword);
                 TrieNode *terminalLetter = addWord(keywordTrieRoot, keyword, referenceNode);
@@ -56,7 +59,7 @@ int main(){
             // printing succes message
             fprintf(outputFile, "OK\n");
         } else if(strcmp(operation, "DEL") == 0){
-            char fileName[41];
+            char fileName[101];
             fscanf(inputFile, "%s", fileName);
 
             // finding the file that needs to be deleted
@@ -64,6 +67,7 @@ int main(){
             Node *nodeToBeDeleted = existsNode(fileSystemList, cmpFiles, newFile);
             free(newFile);
             if(!nodeToBeDeleted){ // doesn't exist, we move on
+                fprintf(outputFile, "NOT FOUND\n");
                 continue;
             }
 
@@ -78,9 +82,32 @@ int main(){
 
             // printing succes message
             fprintf(outputFile, "OK\n");
+        } else if(strcmp(operation, "ADDKW") == 0){
+            char fileName[101], keywordToBeAdded[101];
+            fscanf(inputFile, "%s %s", fileName, keywordToBeAdded);
+
+            // finding the file with the id given
+            File *newFile = createFile(fileName, -1); // creating file struct in order to compare
+            Node *refNode = existsNode(fileSystemList, cmpFiles, newFile);
+            free(newFile);
+            if(!refNode){ // doesn't exist, we move on
+                fprintf(outputFile, "NOT FOUND\n");
+                continue;
+            }
+
+            // adding the keyword
+            TrieNode *terminalLetter = addWord(keywordTrieRoot, keywordToBeAdded, refNode);
+            sortFilesByName(terminalLetter->listOfNodes); // sorting list of keywords
+
+            // printing succes message
+            fprintf(outputFile, "OK\n");           
         } else if(strcmp(operation, "PRINT") == 0){
             char keyword[101];
-            showKeyWords(keywordTrieRoot, keyword, 0, outputFile);
+            int showsSomething = showKeyWords(keywordTrieRoot, keyword, 0, outputFile);
+            // prints empty if the trie doesnt have keywords
+            if(showsSomething == 0){
+                fprintf(outputFile, "EMPTY\n");
+            }
         }
 
     }

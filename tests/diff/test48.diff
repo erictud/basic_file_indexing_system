@@ -1,12 +1,9 @@
---- temp.out.norm	2026-05-12 10:39:30.649898293 +0300
-+++ tests/out/test48.out.norm	2026-05-12 10:39:30.651898267 +0300
-@@ -3,4 +3,20 @@
- mure 1 test
- pere 1 test
+--- temp.out.norm	2026-05-12 11:21:24.028203877 +0300
++++ tests/out/test48.out.norm	2026-05-12 11:21:24.029203930 +0300
+@@ -6,3 +6,17 @@
+ EMPTY
  OK
-+EMPTY
- OK
-+EXISTS
+ EXISTS
 +banane 1 test
 +portocale 1 test
 +OK

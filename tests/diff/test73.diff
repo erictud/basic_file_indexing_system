@@ -1,12 +1,9 @@
---- temp.out.norm	2026-05-12 10:39:31.135891932 +0300
-+++ tests/out/test73.out.norm	2026-05-12 10:39:31.137891906 +0300
-@@ -3,3 +3,21 @@
+--- temp.out.norm	2026-05-12 11:27:07.041443824 +0300
++++ tests/out/test73.out.norm	2026-05-12 11:27:07.042166650 +0300
+@@ -6,3 +6,18 @@
  OK
  OK
  OK
-+OK
-+OK
-+OK
 +EMPTY
 +2 gopo gumball
 +3 gladiatorul godfather gopo

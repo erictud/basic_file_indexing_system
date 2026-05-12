@@ -1,10 +1,9 @@
---- temp.out.norm	2026-05-12 10:39:30.446900950 +0300
-+++ tests/out/test37.out.norm	2026-05-12 10:39:30.448900923 +0300
-@@ -4,3 +4,18 @@
+--- temp.out.norm	2026-05-12 11:27:06.613179733 +0300
++++ tests/out/test37.out.norm	2026-05-12 11:27:06.614179702 +0300
+@@ -5,3 +5,17 @@
  OK
  OK
  OK
-+OK
 +OK
 +2 JinSakai Masako
 +2 JinSakai Atsu

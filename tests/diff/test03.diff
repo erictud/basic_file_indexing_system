@@ -1,33 +1,15 @@
---- temp.out.norm	2026-05-12 09:14:43.544279537 +0300
-+++ tests/out/test03.out.norm	2026-05-12 09:14:43.545279528 +0300
-@@ -7,23 +7,23 @@
- chaos 1 Yennefer
- elderblood 1 Ciri
- human 1 Jaskier
--magic 2 Yennefer Triss
-+magic 2 Triss Yennefer
- monster 1 Geralt
- princess 1 Ciri
--sorceress 2 Yennefer Triss
-+sorceress 2 Triss Yennefer
+--- temp.out.norm	2026-05-12 11:13:56.832650031 +0300
++++ tests/out/test03.out.norm	2026-05-12 11:13:56.834592318 +0300
+@@ -13,7 +13,6 @@
+ sorceress 2 Triss Yennefer
  swords 1 Geralt
--witcher 2 Geralt Ciri
-+witcher 2 Ciri Geralt
+ witcher 2 Ciri Geralt
+-EMPTY
  OK
  OK
  bard 1 Jaskier
- chaos 1 Yennefer
- elderblood 1 Ciri
--human 2 Shani Jaskier
--magic 2 Yennefer Triss
-+human 2 Jaskier Shani
-+magic 2 Triss Yennefer
- medic 1 Shani
- mentor 1 Vesemir
- monster 1 Geralt
- princess 1 Ciri
--sorceress 2 Yennefer Triss
-+sorceress 2 Triss Yennefer
+@@ -28,4 +27,3 @@
+ sorceress 2 Triss Yennefer
  swords 1 Geralt
--witcher 3 Vesemir Geralt Ciri
-+witcher 3 Ciri Geralt Vesemir
+ witcher 3 Ciri Geralt Vesemir
+-EMPTY

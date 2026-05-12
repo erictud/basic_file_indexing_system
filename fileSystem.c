@@ -55,9 +55,11 @@ int cmpNodes(void *node1, void *node2){
 }
 
 // prints all keywords in aphabetical order followed by details
-void showKeyWords(TrieNode *root, char *keyword, int pos, FILE *outputFilePtr){
+int showKeyWords(TrieNode *root, char *keyword, int pos, FILE *outputFilePtr){
+    int printed = 0;
     // end of keyword
     if (root->numOfWords != 0) {
+        printed = 1;
         keyword[pos] = '\0';
         fprintf(outputFilePtr, "%s %d ", keyword, root->numOfWords); 
         // printing every file name that has the current keyword
@@ -76,7 +78,9 @@ void showKeyWords(TrieNode *root, char *keyword, int pos, FILE *outputFilePtr){
             // adding letter
             keyword[pos] = i + 'a';
             
-            showKeyWords(root->children[i], keyword, pos + 1, outputFilePtr);
+            if(showKeyWords(root->children[i], keyword, pos + 1, outputFilePtr))
+                printed = 1; // remember that something is printed
         }
     }
+    return printed;
 }

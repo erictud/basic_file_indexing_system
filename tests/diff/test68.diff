@@ -1,14 +1,9 @@
---- temp.out.norm	2026-05-12 10:39:31.025893372 +0300
-+++ tests/out/test68.out.norm	2026-05-12 10:39:31.027893346 +0300
-@@ -17,3 +17,26 @@
- romance 1 titanic
- sf 4 avatar inception matrix tenet
- thriller 3 inception memento tenet
-+OK
-+OK
-+OK
-+OK
-+OK
+--- temp.out.norm	2026-05-12 11:27:06.982168472 +0300
++++ tests/out/test68.out.norm	2026-05-12 11:27:06.983168442 +0300
+@@ -22,3 +22,21 @@
+ OK
+ OK
+ OK
 +4 inception matrix avatar tenet
 +2 titanic morometii
 +5 titanic matrix morometii gladiatorul dacii

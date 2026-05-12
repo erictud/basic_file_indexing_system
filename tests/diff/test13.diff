@@ -1,9 +1,11 @@
---- temp.out.norm	2026-05-12 10:39:29.984906996 +0300
-+++ tests/out/test13.out.norm	2026-05-12 10:39:29.986906970 +0300
-@@ -3,3 +3,25 @@
- OK
- OK
- OK
+--- temp.out.norm	2026-05-12 11:21:10.395493804 +0300
++++ tests/out/test13.out.norm	2026-05-12 11:21:10.398493960 +0300
+@@ -0,0 +1,27 @@
++OK
++OK
++OK
++OK
++OK
 +OK
 +OK
 +ackerman 1 MikasaAckerman

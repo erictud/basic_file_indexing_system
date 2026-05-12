@@ -1,13 +1,13 @@
---- temp.out.norm	2026-05-12 10:39:30.929894628 +0300
-+++ tests/out/test63.out.norm	2026-05-12 10:39:30.931894602 +0300
-@@ -1,2 +1,18 @@
+--- temp.out.norm	2026-05-12 11:27:06.916669148 +0300
++++ tests/out/test63.out.norm	2026-05-12 11:27:06.917170456 +0300
+@@ -1,5 +1,18 @@
  OK
  OK
 +2 test1 test2
-+OK
-+OK
+ OK
+ OK
 +1 test1
-+OK
+ OK
 +EMPTY
 +OK
 +1 test3

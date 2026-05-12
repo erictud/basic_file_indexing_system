@@ -1,10 +1,9 @@
---- temp.out.norm	2026-05-12 10:39:30.234903724 +0300
-+++ tests/out/test26.out.norm	2026-05-12 10:39:30.236903698 +0300
-@@ -5,3 +5,18 @@
+--- temp.out.norm	2026-05-12 11:27:06.488183548 +0300
++++ tests/out/test26.out.norm	2026-05-12 11:27:06.489183517 +0300
+@@ -6,3 +6,17 @@
  OK
  OK
  OK
-+OK
 +OK
 +4 BiancaBarclay EnidSinclair WednesdayAddams XavierThorpe
 +3 WednesdayAddams BiancaBarclay EnidSinclair

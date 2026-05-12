@@ -1,10 +1,9 @@
---- temp.out.norm	2026-05-12 10:39:30.311902717 +0300
-+++ tests/out/test30.out.norm	2026-05-12 10:39:30.313902690 +0300
-@@ -4,3 +4,18 @@
+--- temp.out.norm	2026-05-12 11:27:06.529640511 +0300
++++ tests/out/test30.out.norm	2026-05-12 11:27:06.530182266 +0300
+@@ -5,3 +5,17 @@
  OK
  OK
  OK
-+OK
 +OK
 +4 Denji HayakawaAki MakimaSan PowerBlood
 +3 MakimaSan Denji PowerBlood

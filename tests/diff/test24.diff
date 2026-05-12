@@ -1,22 +1,9 @@
---- temp.out.norm	2026-05-12 10:39:30.197904208 +0300
-+++ tests/out/test24.out.norm	2026-05-12 10:39:30.199904182 +0300
-@@ -5,6 +5,8 @@
- OK
- OK
- OK
-+OK
-+OK
- eclipse 1 Sylens
- hunter 1 Aloy
- machine 2 Aloy Sylens
-@@ -12,5 +14,21 @@
- oseram 1 Erend
- outcast 1 Sylens
- rebel 1 Regalla
-+seeker 1 Aloy
-+shadow 1 Sylens
-+tenakth 2 Kotallo Regalla
-+warrior 2 Erend Kotallo
+--- temp.out.norm	2026-05-12 11:27:06.467184188 +0300
++++ tests/out/test24.out.norm	2026-05-12 11:27:06.468184158 +0300
+@@ -18,3 +18,17 @@
+ shadow 1 Sylens
+ tenakth 2 Kotallo Regalla
+ warrior 2 Erend Kotallo
 +2 Erend Kotallo
 +2 Aloy Sylens
 +OK
@@ -29,5 +16,5 @@
 +rebel 1 Regalla
 +seeker 1 Aloy
 +shadow 1 Sylens
- tenakth 2 Kotallo Regalla
- warrior 2 Erend Kotallo
++tenakth 2 Kotallo Regalla
++warrior 2 Erend Kotallo

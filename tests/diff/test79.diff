@@ -1,6 +1,6 @@
---- temp.out.norm	2026-05-12 10:39:31.248890453 +0300
-+++ tests/out/test79.out.norm	2026-05-12 10:39:31.249890440 +0300
-@@ -2,9 +2,26 @@
+--- temp.out.norm	2026-05-12 11:27:07.107164682 +0300
++++ tests/out/test79.out.norm	2026-05-12 11:27:07.108164651 +0300
+@@ -2,11 +2,25 @@
  OK
  OK
  OK
@@ -11,8 +11,8 @@
 +3 c0 c2 c4
 +2 c2 c0
  OK
-+OK
-+OK
+ OK
+ OK
 +OK
 +2 c2 c5
 +2 c2 c5
@@ -23,11 +23,10 @@
 +OK
 +EMPTY
 +OK
-+NOT FOUND
+ NOT FOUND
  abis 2 c0 c1
  algoritm 1 c1
- amurg 3 c2 c3 c5
-@@ -15,11 +32,10 @@
+@@ -18,11 +32,10 @@
  cafea 1 c5
  castel 2 c0 c5
  ceara 1 c2
@@ -40,42 +39,29 @@
  ecou 1 c3
  efemer 2 c0 c1
  elixir 2 c0 c5
-@@ -41,9 +57,9 @@
+@@ -44,7 +57,7 @@
  oglinda 4 c0 c1 c2 c3
  orizont 2 c0 c1
  padure 3 c0 c2 c3
 -pasare 3 c0 c2 c5
 +pasare 2 c2 c5
  penita 1 c2
--penumbra 2 c3 c5
-+penumbra 3 c0 c3 c5
+ penumbra 3 c0 c3 c5
  pergament 1 c3
- pian 3 c2 c3 c5
- prisma 2 c0 c3
-@@ -53,7 +69,7 @@
- scanteie 3 c0 c1 c5
- sclipici 3 c2 c3 c5
- scoica 3 c2 c3 c5
--sfera 1 c5
-+sfera 2 c2 c5
- sidef 2 c0 c1
- smarald 2 c2 c3
- spectru 3 c0 c2 c5
-@@ -72,3 +88,183 @@
- zambet 2 c2 c5
+@@ -76,5 +89,182 @@
  zbor 2 c2 c5
  OK
-+OK
+ OK
 +1 c3
 +1 c3
 +OK
-+OK
+ OK
 +7 c0 c1 c2 c3 c5 c6 c7
 +3 c2 c6 c3
 +2 c5 c7
 +2 c6 c7
 +EMPTY
-+OK
+ OK
 +1 c7
 +OK
 +1 c5
