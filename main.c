@@ -134,7 +134,30 @@ int main(){
                 fprintf(outputFile, "EMPTY\n");
             }
         } else if(strcmp(operation, "PREFIX") == 0){
+            char prefix[101];
+            fscanf(inputFile, "%s", prefix);
+
+            // getting the root node in the trie of the last prefix letter
+            TrieNode *root = findLastLetterNode(keywordTrieRoot, prefix, 0);
+
+            if(!root){ // the prefix doesnt exist
+                fprintf(outputFile, "EMPTY\n");
+                continue;
+            }
             
+            // creating a list that contains all the files with a keyword with the prefix
+            List *filesWithPrefix = createList();
+            getAllRefrencedNodes(root, filesWithPrefix);
+
+            // iterating through the list and printing files
+            fprintf(outputFile, "%d ", filesWithPrefix->len);
+            Node *p = filesWithPrefix->head;
+            while(p != NULL){
+                File *f1 = (File *)(((Node *)p->content)->content);
+                fprintf(outputFile, "%s ", f1->id);
+                p = p->next;
+            }
+            fprintf(outputFile, "\n");
         } else if(strcmp(operation, "PRINT") == 0){
             char keyword[101];
             int showsSomething = showKeyWords(keywordTrieRoot, keyword, 0, outputFile);

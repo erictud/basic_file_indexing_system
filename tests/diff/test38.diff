@@ -1,12 +1,12 @@
---- temp.out.norm	2026-05-12 20:22:23.763232079 +0300
-+++ tests/out/test38.out.norm	2026-05-12 20:22:23.765232064 +0300
-@@ -7,3 +7,13 @@
+--- temp.out.norm	2026-05-12 22:56:46.909406579 +0300
++++ tests/out/test38.out.norm	2026-05-12 22:56:46.910406567 +0300
+@@ -7,5 +7,13 @@
  OK
  OK
  4 ChloeFrager ElenaFisher NathanDrake SamDrake
 +1 NathanDrake
-+4 ChloeFrager ElenaFisher NathanDrake SamDrake
-+1 NathanDrake
+ 4 ChloeFrager ElenaFisher NathanDrake SamDrake
+ 1 NathanDrake
 +1 SamDrake
 +adventurer 4 ChloeFrager ElenaFisher NathanDrake SamDrake
 +hunter 1 NathanDrake

@@ -1,38 +1,23 @@
---- temp.out.norm	2026-05-12 20:22:24.254228248 +0300
-+++ tests/out/test74.out.norm	2026-05-12 20:22:24.256228232 +0300
-@@ -1,2 +1,35 @@
+--- temp.out.norm	2026-05-12 22:50:53.429621718 +0300
++++ tests/out/test74.out.norm	2026-05-12 22:50:53.430621706 +0300
+@@ -1,14 +1,14 @@
  OK
  OK
+-4 (null) ÷"ƒ`U
+-2 (null)
+-4 (null) ÷"ƒ`U
+-4 (null) ÷"ƒ`U
+-2 (null)
 +2 list1 list2
 +1 list1
 +2 list1 list2
 +2 list1 list2
 +1 list1
-+OK
-+EMPTY
-+OK
+ OK
+ EMPTY
+ OK
+-2 (null)
 +1 list1
-+acceleratie 1 list1
-+acustica 1 list1
-+aerodinamica 1 list1
-+alhazen 1 list1
-+amestec 1 list1
-+ampere 1 list1
-+analizator 1 list1
-+anihilare 1 list1
-+anizotropie 1 list1
-+anod 1 list1
-+ansamblu 1 list1
-+antena 1 list1
-+antineutron 1 list1
-+aparat 1 list1
-+apogeu 1 list1
-+archimede 1 list1
-+aristotel 1 list1
-+asincron 1 list1
-+asociere 1 list1
-+astrofizica 1 list1
-+astronomie 1 list1
-+atmosfera 1 list1
-+atractie 1 list1
-+avogadro 1 list1
+ acceleratie 1 list1
+ acustica 1 list1
+ aerodinamica 1 list1

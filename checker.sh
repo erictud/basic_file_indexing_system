@@ -1,6 +1,6 @@
 #!/bin/bash
 
-EXEC="./tema2"
+EXEC="./search_index"
 IN_DIR="tests/in"
 OUT_DIR="tests/out"
 DIFF_DIR="tests/diff"

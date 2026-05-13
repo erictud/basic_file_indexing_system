@@ -61,6 +61,43 @@ int printReferencedFiles(TrieNode *root, char *keyword, int lvl, FILE *outputFil
     return -1;
 }
 
+// based on a word, it finds the last letter node
+TrieNode *findLastLetterNode(TrieNode *root, char *keyword, int lvl){
+    int ind = keyword[lvl] - 'a';
+    if(!root)
+        return NULL;
+    // last node
+    if(lvl == strlen(keyword) - 1){
+        TrieNode *p = root->children[ind];
+        return p;
+    }
+    return findLastLetterNode(root->children[ind], keyword, lvl+1);
+}
+
+// gets all the unique referenced nodes from a trie
+void getAllRefrencedNodes(TrieNode *root, List *nodesList){
+    // root is empty
+    if(!root)
+        return;
+    // getting the current nodes referenced
+    if(root->numOfWords != 0){
+        Node *p = root->listOfNodes->head;
+        // appending to the list every new node
+        while(p != NULL){
+            if(!existsNode(nodesList, cmpNodes, p->content)){
+                addNode(nodesList, p->content);
+                sortFilesByName(nodesList); // sorts all the nodes to have them in lexographic order
+            }
+            p = p->next;
+        }
+    }
+
+    // getting the children's refrenced nodes
+    for(int i = 0; i < 26; i++)
+        if(root->children[i] != NULL)
+            getAllRefrencedNodes(root->children[i], nodesList);
+}
+
 // Removes the refrence of a file node from the tree
 void removeRefrenceWord(TrieNode *root, int (*cmp)(void *, void *), Node *nodeToBeDeleted){
     // checking if the terminal node containts a ref to the file

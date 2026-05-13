@@ -1,12 +1,12 @@
---- temp.out.norm	2026-05-12 20:22:23.739232266 +0300
-+++ tests/out/test36.out.norm	2026-05-12 20:22:23.740232259 +0300
-@@ -7,3 +7,15 @@
+--- temp.out.norm	2026-05-12 22:56:46.888406826 +0300
++++ tests/out/test36.out.norm	2026-05-12 22:56:46.889406815 +0300
+@@ -7,5 +7,15 @@
  OK
  OK
  2 Atreus Kratos
 +2 Kratos Atreus
-+3 Atreus Freya Kratos
-+3 Atreus Kratos Mimir
+ 3 Atreus Freya Kratos
+ 3 Atreus Kratos Mimir
 +1 Freya
 +arrows 1 Atreus
 +giant 3 Atreus Kratos Mimir

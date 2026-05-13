@@ -1,36 +1,29 @@
---- temp.out.norm	2026-05-12 20:22:24.305227850 +0300
-+++ tests/out/test78.out.norm	2026-05-12 20:22:24.307227834 +0300
-@@ -4,13 +4,22 @@
+--- temp.out.norm	2026-05-12 22:56:47.377401050 +0300
++++ tests/out/test78.out.norm	2026-05-12 22:56:47.379401026 +0300
+@@ -5,7 +5,9 @@
  OK
  OK
- OK
-+4 c0 c1 c2 c3
+ 4 c0 c1 c2 c3
 +1 c0
  OK
 +4 c5 c3 c1 c0
-+3 c0 c1 c3
-+4 c0 c1 c3 c5
+ 3 c0 c1 c3
+ 4 c0 c1 c3 c5
  OK
-+3 c0 c1 c5
- OK
- OK
-+2 c0 c1
+@@ -16,6 +18,7 @@
  OK
  OK
  OK
 +2 c3 c1
-+3 c0 c2 c3
+ 3 c0 c2 c3
  abis 2 c0 c3
  algoritm 4 c1 c2 c3 c5
- ametist 2 c0 c3
-@@ -84,3 +93,87 @@
- vultur 3 c0 c2 c3
- zambet 4 c0 c1 c5 c6
+@@ -92,4 +95,85 @@
  zbor 2 c1 c3
-+OK
-+NOT FOUND
+ OK
+ NOT FOUND
 +EMPTY
-+NOT FOUND
+ NOT FOUND
 +OK
 +OK
 +1 c1

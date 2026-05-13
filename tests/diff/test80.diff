@@ -1,66 +1,46 @@
---- temp.out.norm	2026-05-12 20:22:24.329227663 +0300
-+++ tests/out/test80.out.norm	2026-05-12 20:22:24.331227647 +0300
-@@ -1,13 +1,24 @@
+--- temp.out.norm	2026-05-12 22:56:47.400400778 +0300
++++ tests/out/test80.out.norm	2026-05-12 22:56:47.401400766 +0300
+@@ -1,6 +1,7 @@
  OK
  OK
  OK
 +2 d0 d1
-+2 d0 d2
+ 2 d0 d2
  OK
  OK
-+EMPTY
-+3 d0 d2 d3
-+EMPTY
+@@ -8,12 +9,15 @@
+ 3 d0 d2 d3
+ EMPTY
  OK
 +EMPTY
  3 d0 d2 d3
-+2 d0 d3
+ 2 d0 d3
 +1 d2
  OK
  OK
  OK
-+2 d0 d4
+ 2 d0 d4
 +1 d4
-+2 d2 d4
+ 2 d2 d4
  OK
  NOT FOUND
- OK
-@@ -85,10 +96,15 @@
+@@ -92,6 +96,8 @@
  vultur 1 d2
  zambet 1 d4
  zbor 1 d4
 +2 d0 d4
 +3 d0 d5 d4
-+4 d0 d2 d4 d5
+ 4 d0 d2 d4 d5
  OK
  NOT FOUND
-+3 d2 d4 d6
+@@ -186,7 +192,96 @@
  OK
  OK
-+EMPTY
- 4 d0 d4 d5 d7
- abis 3 d0 d5 d7
- algoritm 4 d2 d4 d5 d7
-@@ -164,7 +180,108 @@
- vultur 1 d2
- zambet 1 d4
- zbor 1 d4
-+1 d4
-+EMPTY
- OK
- 4 d2 d4 d6 d7
-+EMPTY
- 2 d2 d7
- OK
-+3 d0 d2 d5
-+4 d0 d4 d5 d7
-+OK
-+OK
-+4 d0 d5 d6 d8
+ 4 d0 d5 d6 d8
 +1 d5
-+OK
-+4 d0 d2 d5 d8
-+OK
+ OK
+ 4 d0 d2 d5 d8
+ OK
 +3 d0 d5 d8
 +EMPTY
 +OK
@@ -76,7 +56,7 @@
 +OK
 +OK
 +OK
-+EMPTY
+ EMPTY
 +EMPTY
 +abis 4 d0 d5 d7 d8
 +algoritm 4 d2 d5 d7 d8

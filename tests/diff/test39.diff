@@ -1,12 +1,12 @@
---- temp.out.norm	2026-05-12 20:22:23.776231978 +0300
-+++ tests/out/test39.out.norm	2026-05-12 20:22:23.778231962 +0300
-@@ -7,3 +7,15 @@
+--- temp.out.norm	2026-05-12 22:56:46.920406449 +0300
++++ tests/out/test39.out.norm	2026-05-12 22:56:46.921406437 +0300
+@@ -7,5 +7,15 @@
  OK
  OK
  2 Aloy Sylens
 +1 Kotallo
-+2 Aloy Sylens
-+2 Kotallo Regalla
+ 2 Aloy Sylens
+ 2 Kotallo Regalla
 +1 Aloy
 +eclipse 1 Sylens
 +hunter 1 Aloy

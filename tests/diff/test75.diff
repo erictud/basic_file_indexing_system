@@ -1,28 +1,23 @@
---- temp.out.norm	2026-05-12 20:22:24.268228139 +0300
-+++ tests/out/test75.out.norm	2026-05-12 20:22:24.269228131 +0300
-@@ -2,51 +2,172 @@
- OK
- OK
- 1 doc2
-+3 doc0 doc1 doc2
- OK
+--- temp.out.norm	2026-05-12 22:56:47.345401428 +0300
++++ tests/out/test75.out.norm	2026-05-12 22:56:47.347401404 +0300
+@@ -7,11 +7,13 @@
  OK
  2 doc0 doc1
-+4 doc0 doc1 doc2 doc3
+ 4 doc0 doc1 doc2 doc3
 +2 doc3 doc1
  OK
  OK
-+3 doc0 doc1 doc2
+ 3 doc0 doc1 doc2
  1 doc0
  EMPTY
 +1 doc3
  OK
-+EMPTY
+ EMPTY
  OK
- OK
+@@ -19,17 +21,22 @@
  EMPTY
  EMPTY
-+2 doc2 doc3
+ 2 doc2 doc3
 +1 doc1
 +1 doc3
  OK
@@ -37,72 +32,64 @@
  OK
  OK
  OK
-+1 doc4
+ 1 doc4
 +1 doc3
  OK
  OK
  1 doc0
-+EMPTY
- OK
- OK
- 1 doc0
- 1 doc0
-+4 doc0 doc1 doc3 doc7
+@@ -41,6 +48,7 @@
+ 4 doc0 doc1 doc3 doc7
  OK
  OK
 +2 doc8 doc7
  OK
  OK
  1 doc1
-+1 doc10
-+1 doc1
-+OK
-+OK
+@@ -48,10 +56,12 @@
+ 1 doc1
+ OK
+ OK
 +1 doc11
-+OK
+ OK
  OK
  OK
  OK
 +1 doc13
-+OK
-+OK
-+OK
-+OK
-+NOT FOUND
-+OK
-+OK
-+NOT FOUND
-+4 doc1 doc12 doc16 doc3
+ OK
+ OK
+ OK
+@@ -61,6 +71,7 @@
+ OK
+ NOT FOUND
+ 4 doc1 doc12 doc16 doc3
 +EMPTY
-+NOT FOUND
-+NOT FOUND
+ NOT FOUND
+ NOT FOUND
  OK
- OK
- OK
- OK
-+NOT FOUND
-+EMPTY
-+4 doc12 doc13 doc16 doc3
+@@ -70,3 +81,93 @@
+ NOT FOUND
+ EMPTY
+ 4 doc12 doc13 doc16 doc3
 +1 doc16
- OK
++OK
 +NOT FOUND
- OK
++OK
 +EMPTY
 +NOT FOUND
 +EMPTY
 +EMPTY
 +1 doc3
- OK
- NOT FOUND
- OK
++OK
++NOT FOUND
++OK
 +2 doc3 doc16
 +OK
 +OK
 +4 doc12 doc16 doc17 doc3
 +OK
 +1 doc3
- OK
- NOT FOUND
++OK
++NOT FOUND
 +OK
 +adancime 1 doc8
 +afaceri 1 doc12

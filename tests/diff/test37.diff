@@ -1,12 +1,12 @@
---- temp.out.norm	2026-05-12 20:22:23.751232173 +0300
-+++ tests/out/test37.out.norm	2026-05-12 20:22:23.752232165 +0300
-@@ -7,3 +7,15 @@
+--- temp.out.norm	2026-05-12 22:56:46.898406708 +0300
++++ tests/out/test37.out.norm	2026-05-12 22:56:46.900406685 +0300
+@@ -7,5 +7,15 @@
  OK
  OK
  2 JinSakai Masako
 +2 JinSakai Atsu
-+2 JinSakai Masako
-+2 Atsu JinSakai
+ 2 JinSakai Masako
+ 2 Atsu JinSakai
 +1 Atsu
 +ghost 2 Atsu JinSakai
 +legend 1 JinSakai

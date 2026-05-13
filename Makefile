@@ -1,6 +1,6 @@
 build:
-	gcc -Wall fileSystem.c lists.c trie.c main.c -o tema2
+	gcc -Wall fileSystem.c lists.c trie.c main.c -o search_index
 run:
-	./tema2
+	./search_index
 clean:
-	rm tema2
+	rm search_index

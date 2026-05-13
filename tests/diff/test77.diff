@@ -1,26 +1,15 @@
---- temp.out.norm	2026-05-12 20:22:24.292227951 +0300
-+++ tests/out/test77.out.norm	2026-05-12 20:22:24.293227943 +0300
-@@ -1,13 +1,57 @@
- OK
- OK
-+2 b0 b1
- OK
- OK
- OK
-+2 b0 b1
- OK
-+1 b0
- OK
- 1 b1
+--- temp.out.norm	2026-05-12 22:56:47.366401180 +0300
++++ tests/out/test77.out.norm	2026-05-12 22:56:47.367401168 +0300
+@@ -12,8 +12,46 @@
  OK
  OK
  NOT FOUND
 +2 b2 b3
  OK
  OK
-+1 b3
-+2 b2 b4
-+OK
+ 1 b3
+ 2 b2 b4
+ OK
 +2 b2 b4
 +ametist 2 b2 b4
 +amurg 2 b2 b4

@@ -1,12 +1,12 @@
---- temp.out.norm	2026-05-12 20:22:23.676232758 +0300
-+++ tests/out/test31.out.norm	2026-05-12 20:22:23.677232750 +0300
-@@ -7,3 +7,15 @@
+--- temp.out.norm	2026-05-12 22:56:46.836407441 +0300
++++ tests/out/test31.out.norm	2026-05-12 22:56:46.837407429 +0300
+@@ -7,5 +7,15 @@
  OK
  OK
  4 CaptainAmerica IronMan Thor WandaMaximoff
 +3 IronMan WandaMaximoff CaptainAmerica
-+4 CaptainAmerica IronMan Thor WandaMaximoff
-+1 Thor
+ 4 CaptainAmerica IronMan Thor WandaMaximoff
+ 1 Thor
 +1 IronMan
 +asgardian 1 Thor
 +avenger 4 CaptainAmerica IronMan Thor WandaMaximoff

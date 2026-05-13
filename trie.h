@@ -21,5 +21,8 @@ int cleanupTrie(TrieNode *root);
 void removeKeyword(TrieNode *root, int (*cmp)(void *, void *), Node *nodeToBeDeleted, char *keyword, int lvl);
 //
 int printReferencedFiles(TrieNode *root, char *keyword, int lvl, FILE *outputFile);
-
+// based on a word, it finds the last letter node
+TrieNode *findLastLetterNode(TrieNode *root, char *keyword, int lvl);
+// gets all the unique referenced nodes from a trie
+void getAllRefrencedNodes(TrieNode *root, List *nodesList);
 #endif

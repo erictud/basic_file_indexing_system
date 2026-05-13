@@ -1,12 +1,12 @@
---- temp.out.norm	2026-05-12 20:22:23.688232664 +0300
-+++ tests/out/test32.out.norm	2026-05-12 20:22:23.690232649 +0300
-@@ -7,3 +7,15 @@
+--- temp.out.norm	2026-05-12 22:56:46.847407311 +0300
++++ tests/out/test32.out.norm	2026-05-12 22:56:46.848407299 +0300
+@@ -7,5 +7,15 @@
  OK
  OK
  3 LukeSkywalker ObiWanKenobi YodaMaster
 +2 DarthVader YodaMaster
-+3 LukeSkywalker ObiWanKenobi YodaMaster
-+2 DarthVader LukeSkywalker
+ 3 LukeSkywalker ObiWanKenobi YodaMaster
+ 2 DarthVader LukeSkywalker
 +2 DarthVader YodaMaster
 +chosen 1 DarthVader
 +force 2 DarthVader YodaMaster

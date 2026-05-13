@@ -1,12 +1,12 @@
---- temp.out.norm	2026-05-12 20:22:23.726232368 +0300
-+++ tests/out/test35.out.norm	2026-05-12 20:22:23.728232352 +0300
-@@ -7,3 +7,15 @@
+--- temp.out.norm	2026-05-12 22:56:46.878406945 +0300
++++ tests/out/test35.out.norm	2026-05-12 22:56:46.879406933 +0300
+@@ -7,5 +7,15 @@
  OK
  OK
  3 Dina Ellie Joel
 +3 Ellie Abby Joel
-+3 Abby Ellie Joel
-+3 Dina Ellie Joel
+ 3 Abby Ellie Joel
+ 3 Dina Ellie Joel
 +1 Ellie
 +boston 1 Joel
 +fireflies 3 Abby Ellie Joel

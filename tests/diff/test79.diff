@@ -1,126 +1,50 @@
---- temp.out.norm	2026-05-12 20:22:24.316227764 +0300
-+++ tests/out/test79.out.norm	2026-05-12 20:22:24.318227748 +0300
-@@ -2,15 +2,24 @@
+--- temp.out.norm	2026-05-12 22:56:47.388400920 +0300
++++ tests/out/test79.out.norm	2026-05-12 22:56:47.390400896 +0300
+@@ -3,16 +3,20 @@
  OK
  OK
- OK
-+1 c2
+ 1 c2
 +2 c1 c2
  OK
  OK
-+3 c0 c2 c4
+ 3 c0 c2 c4
 +2 c2 c0
  OK
  OK
  OK
  OK
-+2 c2 c5
+ 2 c2 c5
 +2 c2 c5
  2 c0 c3
-+4 c0 c1 c2 c5
+ 4 c0 c1 c2 c5
 +2 c1 c2
  OK
  OK
-+EMPTY
- OK
- NOT FOUND
- abis 2 c0 c1
-@@ -80,11 +89,182 @@
- zbor 2 c2 c5
+ EMPTY
+@@ -86,9 +90,11 @@
  OK
  OK
-+1 c3
+ 1 c3
 +1 c3
  OK
  OK
-+7 c0 c1 c2 c3 c5 c6 c7
+ 7 c0 c1 c2 c3 c5 c6 c7
 +3 c2 c6 c3
  2 c5 c7
  2 c6 c7
-+EMPTY
- OK
+ EMPTY
+@@ -96,6 +102,7 @@
  1 c7
  OK
  1 c5
 +1 c7
-+OK
-+abis 1 c1
-+algoritm 1 c1
-+ametist 1 c7
-+amurg 4 c2 c3 c5 c7
-+atlas 1 c7
-+azur 1 c5
-+brad 4 c1 c2 c5 c7
-+busola 1 c2
-+cafea 2 c5 c7
-+castel 1 c5
-+ceara 1 c2
-+chitara 1 c7
-+coliba 3 c3 c5 c7
-+cometa 4 c2 c3 c5 c7
-+coral 1 c3
-+cristal 2 c2 c5
-+cuantic 1 c7
-+ecou 1 c3
-+efemer 2 c1 c7
-+elixir 1 c5
-+fantana 4 c2 c3 c5 c7
-+flacara 1 c5
-+fluture 3 c2 c5 c7
-+freamat 1 c7
-+fulger 2 c5 c7
-+galaxie 2 c2 c7
-+izvor 1 c7
-+jar 2 c3 c7
-+labirint 3 c2 c5 c7
-+lup 2 c1 c5
-+mar 2 c2 c5
-+margean 1 c7
-+matase 4 c1 c2 c3 c7
-+mesteacan 2 c2 c7
-+munte 1 c7
-+nectar 2 c1 c3
-+nisip 3 c1 c2 c3
-+nor 1 c7
-+ocean 1 c7
-+oglinda 4 c1 c2 c3 c7
-+orizont 2 c1 c7
-+padure 3 c2 c3 c7
-+pasare 3 c2 c5 c7
-+penita 2 c2 c7
-+penumbra 2 c3 c5
-+pergament 1 c3
-+pian 3 c2 c3 c5
-+prisma 2 c3 c7
-+randunica 2 c2 c5
-+roua 1 c7
-+rucsac 2 c3 c5
-+sarma 1 c3
-+scanteie 3 c1 c5 c7
-+sclipici 4 c2 c3 c5 c7
-+scoica 4 c2 c3 c5 c7
-+sfera 2 c2 c5
-+sidef 2 c1 c7
-+smarald 2 c2 c3
-+spectru 3 c2 c5 c7
-+spirala 2 c1 c7
-+stea 2 c2 c3
-+stejar 4 c1 c3 c5 c7
-+tacere 3 c1 c2 c7
-+telescop 3 c1 c5 c7
-+timp 2 c2 c7
-+umbra 2 c2 c7
-+univers 2 c1 c5
-+vant 1 c7
-+vis 2 c1 c3
-+viteza 1 c1
-+vulcan 4 c1 c2 c5 c7
-+vultur 1 c3
-+zambet 2 c2 c5
-+zbor 2 c2 c5
-+NOT FOUND
-+1 c7
-+1 c7
+ OK
+ abis 1 c1
+ algoritm 1 c1
+@@ -174,3 +181,90 @@
+ NOT FOUND
+ 1 c7
+ 1 c7
 +OK
 +NOT FOUND
 +OK

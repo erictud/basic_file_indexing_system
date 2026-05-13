@@ -1,21 +1,21 @@
---- temp.out.norm	2026-05-12 20:22:24.242228341 +0300
-+++ tests/out/test73.out.norm	2026-05-12 20:22:24.243228334 +0300
-@@ -6,4 +6,18 @@
+--- temp.out.norm	2026-05-12 22:50:53.419425753 +0300
++++ tests/out/test73.out.norm	2026-05-12 22:50:53.419621839 +0300
+@@ -7,13 +7,13 @@
  OK
  OK
- OK
-+EMPTY
+ EMPTY
+-4 (null) MKÑa
+-6 êNKÑa ∞WKÑa (null)
+-6 êNKÑa ∞WKÑa †]KÑa
 +2 gopo gumball
 +3 gladiatorul godfather gopo
 +3 gladiatorul godfather greu_de_ucis
  OK
+-2 MKÑa
 +1 gumball
-+OK
+ OK
+-2 (null)
 +1 gopo
-+actiune 1 greu_de_ucis
-+crime 1 godfather
-+desen 1 gopo
-+drama 1 gladiatorul
-+film 3 gladiatorul godfather greu_de_ucis
-+premiu 3 gladiatorul godfather gopo
-+regizor 1 gopo
+ actiune 1 greu_de_ucis
+ crime 1 godfather
+ desen 1 gopo

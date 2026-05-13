@@ -1,12 +1,12 @@
---- temp.out.norm	2026-05-12 20:22:23.789231877 +0300
-+++ tests/out/test40.out.norm	2026-05-12 20:22:23.791231861 +0300
-@@ -7,3 +7,13 @@
+--- temp.out.norm	2026-05-12 22:56:46.930406330 +0300
++++ tests/out/test40.out.norm	2026-05-12 22:56:46.931406318 +0300
+@@ -7,5 +7,13 @@
  OK
  OK
  4 DustinHenderson ElevenHopper HopperChief MaxMayfield
 +2 DustinHenderson MaxMayfield
-+4 DustinHenderson ElevenHopper HopperChief MaxMayfield
-+1 ElevenHopper
+ 4 DustinHenderson ElevenHopper HopperChief MaxMayfield
+ 1 ElevenHopper
 +2 DustinHenderson MaxMayfield
 +chief 1 HopperChief
 +hawkins 4 DustinHenderson ElevenHopper HopperChief MaxMayfield
