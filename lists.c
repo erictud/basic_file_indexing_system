@@ -1,3 +1,5 @@
+/* Tudorica Eric Emanuel - 313CCa */
+
 #include <stdlib.h>
 #include "lists.h"
 

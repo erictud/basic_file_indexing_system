@@ -1,18 +1,11 @@
---- temp.out.norm	2026-05-12 22:56:46.781408091 +0300
-+++ tests/out/test26.out.norm	2026-05-12 22:56:46.782408079 +0300
-@@ -8,3 +8,15 @@
- OK
+--- temp.out.norm	2026-05-13 10:49:49.995446113 +0300
++++ tests/out/test26.out.norm	2026-05-13 10:49:49.997446155 +0300
+@@ -9,7 +9,7 @@
  OK
  4 BiancaBarclay EnidSinclair WednesdayAddams XavierThorpe
-+3 WednesdayAddams BiancaBarclay EnidSinclair
+ 3 WednesdayAddams BiancaBarclay EnidSinclair
+-2 WednesdayAddams WednesdayAddams
 +2 WednesdayAddams XavierThorpe
-+OK
-+2 LurchAddams WednesdayAddams
-+butler 1 LurchAddams
-+detective 1 WednesdayAddams
-+hyde 1 TylerGalpin
-+nevermore 4 BiancaBarclay EnidSinclair WednesdayAddams XavierThorpe
-+outcast 2 LurchAddams WednesdayAddams
-+psychic 2 WednesdayAddams XavierThorpe
-+siren 1 BiancaBarclay
-+werewolf 1 EnidSinclair
+ OK
+ 2 LurchAddams WednesdayAddams
+ butler 1 LurchAddams

@@ -1,18 +1,11 @@
---- temp.out.norm	2026-05-12 22:56:46.857407193 +0300
-+++ tests/out/test33.out.norm	2026-05-12 22:56:46.858407181 +0300
-@@ -7,5 +7,15 @@
+--- temp.out.norm	2026-05-13 10:49:50.100448324 +0300
++++ tests/out/test33.out.norm	2026-05-13 10:49:50.101448345 +0300
+@@ -7,7 +7,7 @@
  OK
  OK
  3 Ciri Geralt Regis
+-2 Ciri Ciri
 +2 Ciri Yennefer
  3 Ciri Geralt Regis
  2 Ciri Yennefer
-+1 Yennefer
-+elderblood 1 Ciri
-+magic 1 Yennefer
-+monster 1 Geralt
-+princess 1 Ciri
-+sorceress 2 Ciri Yennefer
-+swords 1 Geralt
-+vampire 1 Regis
-+witcher 3 Ciri Geralt Regis
+ 1 Yennefer

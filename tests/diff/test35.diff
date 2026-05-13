@@ -1,18 +1,11 @@
---- temp.out.norm	2026-05-12 22:56:46.878406945 +0300
-+++ tests/out/test35.out.norm	2026-05-12 22:56:46.879406933 +0300
-@@ -7,5 +7,15 @@
+--- temp.out.norm	2026-05-13 10:49:50.130448956 +0300
++++ tests/out/test35.out.norm	2026-05-13 10:49:50.131448977 +0300
+@@ -7,7 +7,7 @@
  OK
  OK
  3 Dina Ellie Joel
+-3 Ellie Abby Abby
 +3 Ellie Abby Joel
  3 Abby Ellie Joel
  3 Dina Ellie Joel
-+1 Ellie
-+boston 1 Joel
-+fireflies 3 Abby Ellie Joel
-+immune 1 Ellie
-+infected 1 Ellie
-+jackson 1 Dina
-+revenge 1 Abby
-+soldier 1 Abby
-+survivor 3 Dina Ellie Joel
+ 1 Ellie

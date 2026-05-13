@@ -1,6 +1,9 @@
+/* Tudorica Eric Emanuel - 313CCa */
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+
 #include "trie.h"
 #include "lists.h"
 #include "fileSystem.h"
@@ -34,7 +37,7 @@ TrieNode *addWord(TrieNode *root, char *word, Node *referenceNode){
     return p;
 }
 
-// Based on a keyword, it prints the names of all files referenced in the last node
+// based on a keyword, it prints the names of all files referenced in the last node
 int printReferencedFiles(TrieNode *root, char *keyword, int lvl, FILE *outputFile){
     // arrived to the last node
     if(lvl == strlen(keyword) - 1) {
@@ -98,7 +101,7 @@ void getAllRefrencedNodes(TrieNode *root, List *nodesList){
             getAllRefrencedNodes(root->children[i], nodesList);
 }
 
-// Removes the refrence of a file node from the tree
+// removes the refrence of a file node from the tree
 void removeRefrenceWord(TrieNode *root, int (*cmp)(void *, void *), Node *nodeToBeDeleted){
     // checking if the terminal node containts a ref to the file
     if(root->numOfWords != 0 && existsNode(root->listOfNodes, cmp, nodeToBeDeleted)){
@@ -115,7 +118,7 @@ void removeRefrenceWord(TrieNode *root, int (*cmp)(void *, void *), Node *nodeTo
     }
 }
 
-// Removes the refrence of a file node from one keyword
+// removes the refrence of a file node from one keyword
 void removeKeyword(TrieNode *root, int (*cmp)(void *, void *), Node *nodeToBeDeleted, char *keyword, int lvl){
     // checking if the terminal node containts a ref to the file
     if(lvl == strlen(keyword)-1){

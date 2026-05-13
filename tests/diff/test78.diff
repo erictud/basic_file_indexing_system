@@ -1,106 +1,11 @@
---- temp.out.norm	2026-05-12 22:56:47.377401050 +0300
-+++ tests/out/test78.out.norm	2026-05-12 22:56:47.379401026 +0300
-@@ -5,7 +5,9 @@
- OK
- OK
- 4 c0 c1 c2 c3
-+1 c0
- OK
-+4 c5 c3 c1 c0
- 3 c0 c1 c3
- 4 c0 c1 c3 c5
- OK
-@@ -16,6 +18,7 @@
- OK
- OK
- OK
-+2 c3 c1
- 3 c0 c2 c3
- abis 2 c0 c3
- algoritm 4 c1 c2 c3 c5
-@@ -92,4 +95,85 @@
+--- temp.out.norm	2026-05-13 10:53:31.645722848 +0300
++++ tests/out/test78.out.norm	2026-05-13 10:53:31.646722852 +0300
+@@ -95,7 +95,7 @@
  zbor 2 c1 c3
  OK
  NOT FOUND
+-0
 +EMPTY
  NOT FOUND
-+OK
-+OK
-+1 c1
-+4 c0 c1 c4 c7
-+OK
-+4 c0 c1 c4 c7
-+2 c7 c1
-+abis 1 c0
-+algoritm 4 c1 c2 c5 c7
-+ametist 1 c0
-+amurg 3 c1 c4 c7
-+atlas 3 c0 c2 c7
-+azur 2 c4 c7
-+brad 1 c2
-+busola 1 c0
-+cafea 2 c0 c2
-+castel 1 c0
-+ceara 2 c0 c1
-+chitara 2 c0 c7
-+coliba 2 c0 c7
-+cometa 4 c0 c1 c4 c7
-+coral 3 c0 c1 c7
-+cristal 2 c0 c1
-+cuantic 4 c0 c1 c5 c7
-+ecou 2 c0 c1
-+efemer 4 c0 c1 c2 c7
-+elixir 4 c0 c1 c2 c7
-+fantana 1 c7
-+flacara 3 c1 c2 c7
-+fluture 3 c0 c1 c7
-+freamat 3 c0 c1 c4
-+fulger 1 c2
-+galaxie 1 c1
-+izvor 3 c0 c1 c7
-+jar 3 c0 c1 c7
-+labirint 3 c0 c5 c7
-+lup 1 c0
-+mar 1 c0
-+margean 1 c0
-+matase 1 c2
-+mesteacan 2 c0 c1
-+munte 3 c0 c1 c7
-+nectar 3 c1 c6 c7
-+nisip 4 c0 c1 c2 c7
-+nor 2 c0 c7
-+ocean 3 c1 c2 c7
-+oglinda 1 c7
-+padure 3 c0 c2 c7
-+pasare 3 c0 c1 c4
-+penumbra 2 c4 c7
-+pergament 2 c0 c7
-+pian 3 c4 c5 c7
-+praf 2 c1 c2
-+prisma 1 c7
-+randunica 3 c0 c1 c7
-+roua 2 c1 c7
-+rucsac 3 c0 c1 c7
-+sarma 2 c0 c5
-+scanteie 3 c0 c1 c7
-+sclipici 3 c0 c1 c7
-+scoica 3 c0 c1 c7
-+sfera 4 c0 c1 c2 c7
-+sidef 5 c0 c1 c4 c6 c7
-+smarald 1 c7
-+spectru 1 c2
-+spirala 3 c0 c2 c7
-+stea 1 c0
-+stejar 3 c0 c1 c2
-+tacere 3 c0 c5 c7
-+telescop 2 c0 c2
-+timp 1 c7
-+umbra 2 c0 c2
-+univers 3 c2 c5 c7
-+vant 3 c0 c1 c7
-+vis 3 c0 c1 c5
-+viteza 4 c0 c2 c4 c7
-+vulcan 3 c1 c6 c7
-+vultur 3 c0 c2 c7
-+zambet 5 c0 c1 c5 c6 c7
-+zbor 1 c1
+ OK
+ OK

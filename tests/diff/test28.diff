@@ -1,19 +1,17 @@
---- temp.out.norm	2026-05-12 22:56:46.802407843 +0300
-+++ tests/out/test28.out.norm	2026-05-12 22:56:46.804407819 +0300
-@@ -7,3 +7,16 @@
+--- temp.out.norm	2026-05-13 10:49:50.027446787 +0300
++++ tests/out/test28.out.norm	2026-05-13 10:49:50.028446808 +0300
+@@ -7,11 +7,11 @@
  OK
  OK
  3 ArminArlert LeviAckerman MikasaAckerman
+-3 LeviAckerman ArminArlert ArminArlert
+-1 (null)
 +3 LeviAckerman MikasaAckerman ArminArlert
 +1 ErenYeager
-+OK
-+2 ErenYeager ReinerBraun
+ OK
+ 2 ErenYeager ReinerBraun
+-2 LeviAckerman LeviAckerman
 +2 LeviAckerman MikasaAckerman
-+ackerman 2 LeviAckerman MikasaAckerman
-+eldian 2 ArminArlert ErenYeager
-+founder 1 ErenYeager
-+shifter 2 ErenYeager ReinerBraun
-+soldier 2 LeviAckerman MikasaAckerman
-+survey 3 ArminArlert LeviAckerman MikasaAckerman
-+titan 2 ErenYeager ReinerBraun
-+warrior 1 ReinerBraun
+ ackerman 2 LeviAckerman MikasaAckerman
+ eldian 2 ArminArlert ErenYeager
+ founder 1 ErenYeager

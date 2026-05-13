@@ -6,6 +6,11 @@ Using the power of the linked list, trie and heap, we can retrive rapidly files 
 ### List of features 
 * add file (ADD)
 * delete file (DEL)
+* add keyword to file (ADDKW)
+* delete keyword from file (DELKW)
+* find all files ref by a keyword (FIND)
+* k most relevant files with a keyword (TOPK)
+* print all keywords (PRINT)
 
 ## Features descriptions
 #### ADD file

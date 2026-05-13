@@ -1,3 +1,5 @@
+/* Tudorica Eric Emanuel - 313CCa */
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -6,6 +8,7 @@
 #include "lists.h"
 #include "trie.h"
 #include "fileSystem.h"
+#include "heap.h"
 
 int main(){
     // Input files
@@ -133,6 +136,41 @@ int main(){
             if(res == -1){
                 fprintf(outputFile, "EMPTY\n");
             }
+        }else if(strcmp(operation, "TOPK") == 0){
+            // getting input
+            char keyword[101];
+            int k;
+            fscanf(inputFile, "%s %d", keyword, &k);
+
+            // gets the terminal letter node of the keyword
+            TrieNode *lastLetter = findLastLetterNode(keywordTrieRoot, keyword, 0);
+
+            // check if the keyword exists
+            if(!lastLetter || lastLetter->numOfWords == 0){
+                fprintf(outputFile, "EMPTY\n");
+                continue;
+            }
+
+            // init the max-heap of elements from the lastLetter
+            Heap *keywordHeap = initHeap(lastLetter->numOfWords);
+
+            // constructs the heap that is formed by the files that are referenced
+            Node *p = lastLetter->listOfNodes->head;
+            while(p != NULL){
+                File *f = (File *)((Node *)p->content)->content;
+                insertHeap(keywordHeap, *f, cmpFilesByPriority);
+                p = p->next;
+            }
+
+            // extracts the k elements (if there are less than k elem, we show all the elem)
+            int ind = k > lastLetter->numOfWords ? lastLetter->numOfWords : k; 
+            fprintf(outputFile, "%d ", ind); // prints the num 
+            for(int i = 0; i < ind; i++){
+                File f = extractMax(keywordHeap, cmpFilesByPriority);
+                fprintf(outputFile, "%s ", f.id);
+            }
+            fprintf(outputFile, "\n");
+
         } else if(strcmp(operation, "PREFIX") == 0){
             char prefix[101];
             fscanf(inputFile, "%s", prefix);

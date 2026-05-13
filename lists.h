@@ -1,3 +1,5 @@
+/* Tudorica Eric Emanuel - 313CCa */
+
 #ifndef LIST
 #define LIST
 
@@ -11,7 +13,7 @@ typedef struct List {
     struct Node *head, *tail;
 } List;
 
-//creates empty list
+// creates empty list
 List *createList(); 
 // adds node to list
 Node *addNode(List *list, void *content);

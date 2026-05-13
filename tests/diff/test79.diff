@@ -1,134 +1,61 @@
---- temp.out.norm	2026-05-12 22:56:47.388400920 +0300
-+++ tests/out/test79.out.norm	2026-05-12 22:56:47.390400896 +0300
-@@ -3,16 +3,20 @@
+--- temp.out.norm	2026-05-13 10:49:50.805463169 +0300
++++ tests/out/test79.out.norm	2026-05-13 10:49:50.807463211 +0300
+@@ -3,7 +3,7 @@
  OK
  OK
  1 c2
+-2 c1 c0
 +2 c1 c2
  OK
  OK
  3 c0 c2 c4
-+2 c2 c0
- OK
- OK
+@@ -13,7 +13,7 @@
  OK
  OK
  2 c2 c5
+-2 c2 c2
 +2 c2 c5
  2 c0 c3
  4 c0 c1 c2 c5
-+2 c1 c2
+ 2 c1 c2
+@@ -89,12 +89,12 @@
+ zbor 2 c2 c5
  OK
  OK
- EMPTY
-@@ -86,9 +90,11 @@
- OK
- OK
- 1 c3
+-1 (null)
 +1 c3
+ 1 c3
  OK
  OK
  7 c0 c1 c2 c3 c5 c6 c7
+-3 c2 c3 c3
 +3 c2 c6 c3
  2 c5 c7
  2 c6 c7
  EMPTY
-@@ -96,6 +102,7 @@
+@@ -102,7 +102,7 @@
  1 c7
  OK
  1 c5
+-1 (null)
 +1 c7
  OK
  abis 1 c1
  algoritm 1 c1
-@@ -174,3 +181,90 @@
- NOT FOUND
- 1 c7
- 1 c7
-+OK
-+NOT FOUND
-+OK
-+2 c2 c8
-+OK
-+OK
+@@ -187,13 +187,13 @@
+ 2 c2 c8
+ OK
+ OK
+-2 c5 c5
+-2 c2 c2
 +2 c7 c5
 +2 c2 c3
-+4 c1 c2 c5 c7
-+OK
-+NOT FOUND
-+7 c1 c10 c2 c3 c5 c7 c9
+ 4 c1 c2 c5 c7
+ OK
+ NOT FOUND
+ 7 c1 c10 c2 c3 c5 c7 c9
+-1 (null)
 +1 c3
-+abis 1 c1
-+algoritm 2 c1 c10
-+ametist 2 c10 c7
-+amurg 5 c10 c2 c3 c5 c7
-+atlas 3 c10 c7 c9
-+azur 1 c5
-+brad 4 c1 c2 c5 c7
-+busola 2 c2 c9
-+cafea 3 c10 c5 c7
-+castel 1 c5
-+ceara 2 c10 c2
-+chitara 2 c10 c7
-+coliba 4 c10 c3 c5 c7
-+cometa 5 c10 c2 c3 c5 c7
-+coral 3 c2 c3 c9
-+cristal 3 c10 c2 c5
-+cuantic 2 c10 c7
-+ecou 1 c3
-+efemer 3 c1 c10 c7
-+elixir 2 c10 c5
-+fantana 5 c10 c2 c3 c5 c7
-+flacara 1 c5
-+fluture 3 c2 c5 c7
-+freamat 2 c10 c7
-+fulger 3 c10 c5 c7
-+galaxie 3 c10 c2 c7
-+izvor 2 c10 c7
-+jar 2 c3 c7
-+labirint 4 c2 c5 c7 c9
-+lup 3 c1 c10 c5
-+mar 4 c10 c2 c5 c9
-+margean 1 c7
-+matase 5 c1 c10 c2 c3 c7
-+mesteacan 3 c10 c2 c7
-+munte 2 c10 c7
-+nectar 2 c1 c3
-+nisip 4 c1 c10 c2 c3
-+nor 3 c10 c7 c9
-+ocean 2 c10 c7
-+oglinda 4 c1 c2 c3 c7
-+orizont 3 c1 c10 c7
-+padure 3 c2 c3 c7
-+pasare 3 c2 c5 c7
-+penita 3 c10 c2 c7
-+penumbra 3 c10 c3 c5
-+pergament 2 c10 c3
-+pian 3 c2 c3 c5
-+prisma 2 c3 c7
-+randunica 2 c2 c5
-+roua 1 c7
-+rucsac 3 c10 c3 c5
-+sarma 1 c3
-+scanteie 3 c1 c5 c7
-+sclipici 5 c10 c2 c3 c5 c7
-+scoica 4 c2 c3 c5 c7
-+sfera 3 c10 c2 c5
-+sidef 2 c1 c7
-+smarald 3 c10 c2 c3
-+spectru 4 c10 c2 c5 c7
-+spirala 3 c1 c10 c7
-+stea 3 c10 c2 c3
-+stejar 4 c1 c3 c5 c7
-+tacere 4 c1 c2 c7 c9
-+telescop 3 c1 c5 c7
-+timp 2 c2 c7
-+umbra 2 c2 c7
-+univers 2 c1 c5
-+vant 2 c10 c7
-+vis 3 c1 c10 c3
-+viteza 1 c1
-+vulcan 5 c1 c10 c2 c5 c7
-+vultur 1 c3
-+zambet 3 c10 c2 c5
-+zbor 3 c2 c5 c9
+ abis 1 c1
+ algoritm 2 c1 c10
+ ametist 2 c10 c7

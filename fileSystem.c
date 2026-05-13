@@ -1,3 +1,4 @@
+/* Tudorica Eric Emanuel - 313CCa */
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -52,6 +53,16 @@ int cmpNodes(void *node1, void *node2){
     char *id1 = f1->id;
     char *id2 = f2->id;
     return strcmp(id1, id2) == 0;
+}
+
+// compares two files based on relevance score
+// the score is equal, the compares lexicographically
+int cmpFilesByPriority(File f1, File f2){
+    if(f1.score > f2.score)
+        return 1;
+    else if(f1.score == f2.score && strcmp(f1.id, f2.id) < 0) // relevance is eq
+        return 1;
+    return 0;
 }
 
 // prints all keywords in aphabetical order followed by details

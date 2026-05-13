@@ -1,3 +1,5 @@
+/* Tudorica Eric Emanuel - 313CCa */
+
 #include "lists.h"
 #include "trie.h"
 #include <stdio.h>
@@ -20,4 +22,6 @@ int showKeyWords(TrieNode *root, char *keyword, int pos, FILE *outputFilePtr);
 int cmpFiles(void *content, void *refContent);
 // cmp two nodes based on the file content that they are holding
 int cmpNodes(void *node1, void *node2);
+// compares two files based on relevance score; if the score is equal, the compares lexicographically
+int cmpFilesByPriority(File f1, File f2);
 #endif

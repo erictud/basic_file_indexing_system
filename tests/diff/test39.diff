@@ -1,18 +1,11 @@
---- temp.out.norm	2026-05-12 22:56:46.920406449 +0300
-+++ tests/out/test39.out.norm	2026-05-12 22:56:46.921406437 +0300
-@@ -7,5 +7,15 @@
+--- temp.out.norm	2026-05-13 10:49:50.184450093 +0300
++++ tests/out/test39.out.norm	2026-05-13 10:49:50.185450114 +0300
+@@ -7,7 +7,7 @@
  OK
  OK
  2 Aloy Sylens
+-1 (null)
 +1 Kotallo
  2 Aloy Sylens
  2 Kotallo Regalla
-+1 Aloy
-+eclipse 1 Sylens
-+hunter 1 Aloy
-+machine 2 Aloy Sylens
-+nora 1 Aloy
-+rebel 1 Regalla
-+seeker 1 Aloy
-+tenakth 2 Kotallo Regalla
-+warrior 1 Kotallo
+ 1 Aloy

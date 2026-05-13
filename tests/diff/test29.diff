@@ -1,17 +1,13 @@
---- temp.out.norm	2026-05-12 22:56:46.814407701 +0300
-+++ tests/out/test29.out.norm	2026-05-12 22:56:46.815407689 +0300
-@@ -7,3 +7,14 @@
+--- temp.out.norm	2026-05-13 10:49:50.042447103 +0300
++++ tests/out/test29.out.norm	2026-05-13 10:49:50.043447124 +0300
+@@ -7,8 +7,8 @@
  OK
  OK
  4 MegumiFushiguro NoboraKugisaki SatoruGojo YujiItadori
+-3 SatoruGojo MegumiFushiguro NoboraKugisaki
+-2 MegumiFushiguro NoboraKugisaki
 +3 SatoruGojo YujiItadori MegumiFushiguro
 +2 YujiItadori MegumiFushiguro
-+OK
-+4 MegumiFushiguro NoboraKugisaki RyomenSukuna YujiItadori
-+cursed 4 MegumiFushiguro NoboraKugisaki RyomenSukuna YujiItadori
-+divergent 1 YujiItadori
-+infinity 1 SatoruGojo
-+king 1 RyomenSukuna
-+sensei 1 SatoruGojo
-+sorcerer 4 MegumiFushiguro NoboraKugisaki SatoruGojo YujiItadori
-+vessel 1 YujiItadori
+ OK
+ 4 MegumiFushiguro NoboraKugisaki RyomenSukuna YujiItadori
+ cursed 4 MegumiFushiguro NoboraKugisaki RyomenSukuna YujiItadori

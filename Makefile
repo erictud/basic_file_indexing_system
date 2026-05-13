@@ -1,5 +1,5 @@
 build:
-	gcc -Wall fileSystem.c lists.c trie.c main.c -o search_index
+	gcc -Wall fileSystem.c heap.c lists.c trie.c main.c -o search_index
 run:
 	./search_index
 clean:

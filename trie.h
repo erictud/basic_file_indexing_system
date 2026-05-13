@@ -1,4 +1,7 @@
+/* Tudorica Eric Emanuel - 313CCa */
+
 #include "lists.h"
+#include <stdio.h>
 
 #ifndef TRIE
 #define TRIE
@@ -17,9 +20,9 @@ TrieNode *addWord(TrieNode *root, char *word, Node *referenceNode);
 void removeRefrenceWord(TrieNode *root, int (*cmp)(void *, void *), Node *nodeToBeDeleted);
 // deletes the nodes in the trie that have no file to point to
 int cleanupTrie(TrieNode *root);
-//
+// removes the refrence of a file node from one keyword
 void removeKeyword(TrieNode *root, int (*cmp)(void *, void *), Node *nodeToBeDeleted, char *keyword, int lvl);
-//
+// based on a keyword, it prints the names of all files referenced in the last node
 int printReferencedFiles(TrieNode *root, char *keyword, int lvl, FILE *outputFile);
 // based on a word, it finds the last letter node
 TrieNode *findLastLetterNode(TrieNode *root, char *keyword, int lvl);
