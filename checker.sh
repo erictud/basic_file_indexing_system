@@ -23,6 +23,12 @@ for i in $(seq 61 65); do SCORE_TABLE[$i]=1.00; done   # tests for FIND
 for i in $(seq 66 70); do SCORE_TABLE[$i]=3.00; done   # tests for TOPK
 for i in $(seq 71 80); do SCORE_TABLE[$i]=1.00; done   # tests for PREFIX - BONUS
 
+# Check if valgrind is available
+VALGRIND_AVAILABLE=0
+if command -v valgrind &> /dev/null; then
+    VALGRIND_AVAILABLE=1
+fi
+
 echo "Running tests..."
 
 # Build the executable
@@ -63,15 +69,34 @@ for input_file in "$IN_DIR"/test*.in; do
     total=$(echo "scale=2; $total + $points" | bc)
 
     cp "$input_file" indexare.in
-    "$EXEC"
-    cp indexare.out "$TEMP"
+
+    has_leaks=0
+    if [ "$VALGRIND_AVAILABLE" -eq 1 ]; then
+        valgrind_out=$(valgrind --leak-check=full "$EXEC" 2>&1)
+        cp indexare.out "$TEMP"
+        if echo "$valgrind_out" | grep -qE "definitely lost: [1-9][0-9,]* bytes"; then
+            has_leaks=1
+        fi
+        if echo "$valgrind_out" | grep -qE "indirectly lost: [1-9][0-9,]* bytes"; then
+            has_leaks=1
+        fi
+    else
+        "$EXEC"
+        cp indexare.out "$TEMP"
+    fi
 
     normalize "$TEMP" > "${TEMP}.norm"
     normalize "$expected" > "${expected}.norm"
 
     if diff -q "${TEMP}.norm" "${expected}.norm" > /dev/null 2>&1; then
-        score=$(echo "scale=2; $score + $points" | bc)
-        echo "$test_name ($points pts) - PASSED"
+        if [ "$has_leaks" -eq 1 ]; then
+            actual_points=$(echo "scale=2; $points * 0.9" | bc)
+            score=$(echo "scale=2; $score + $actual_points" | bc)
+            echo "$test_name ($actual_points/$points pts) - PASSED (memory leaks detected)"
+        else
+            score=$(echo "scale=2; $score + $points" | bc)
+            echo "$test_name ($points pts) - PASSED"
+        fi
         passed=$((passed + 1))
     else
         mkdir -p "$DIFF_DIR"

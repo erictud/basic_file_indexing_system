@@ -1,7 +1,0 @@
---- temp.out.norm	2026-05-12 11:14:04.194000020 +0300
-+++ tests/out/test46.out.norm	2026-05-12 11:14:04.195000068 +0300
-@@ -2,3 +2,4 @@
- NOT FOUND
- OK
- NOT FOUND
-+EMPTY

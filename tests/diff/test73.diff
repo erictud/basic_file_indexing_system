@@ -1,21 +1,0 @@
---- temp.out.norm	2026-05-12 22:50:53.419425753 +0300
-+++ tests/out/test73.out.norm	2026-05-12 22:50:53.419621839 +0300
-@@ -7,13 +7,13 @@
- OK
- OK
- EMPTY
--4 (null) ğMK„a
--6 NK„a °WK„a (null)
--6 NK„a °WK„a  ]K„a
-+2 gopo gumball
-+3 gladiatorul godfather gopo
-+3 gladiatorul godfather greu_de_ucis
- OK
--2 ğMK„a
-+1 gumball
- OK
--2 (null)
-+1 gopo
- actiune 1 greu_de_ucis
- crime 1 godfather
- desen 1 gopo

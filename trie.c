@@ -153,14 +153,13 @@ int cleanupTrie(TrieNode *root) {
     for (int i = 0; i < 26; i++) {
         if (root->children[i] != NULL) {
             if (cleanupTrie(root->children[i])) {
-                free(root->children[i]);
+                freeTrie(root->children[i]);
                 root->children[i] = NULL; 
             } else {
                 has_children = 1; // means is a prefix
             }
         }
     }
-
     // if it has no active children it can be deleted
     if (!has_children) {
         return 1; 
@@ -177,5 +176,6 @@ void freeTrie(TrieNode *root){
         if(root->children[i] != NULL)   
             freeTrie(root->children[i]);
     
+    freeList(&(root->listOfNodes), NULL);
     free(root);
 }

@@ -69,6 +69,7 @@ int main(){
             // finding the file that needs to be deleted
             File *newFile = createFile(fileName, -1); // creating file struct in order to compare
             Node *nodeToBeDeleted = existsNode(fileSystemList, cmpFiles, newFile);
+            free(newFile->id);
             free(newFile);
             if(!nodeToBeDeleted){ // doesn't exist, we move on
                 fprintf(outputFile, "NOT FOUND\n");
@@ -82,6 +83,7 @@ int main(){
             cleanupTrie(keywordTrieRoot);
 
             // deleting file from the list
+            freeFile(nodeToBeDeleted->content);
             removeNode(fileSystemList, cmpFiles, nodeToBeDeleted->content);
 
             // printing succes message
@@ -93,6 +95,7 @@ int main(){
             // finding the file with the id given
             File *newFile = createFile(fileName, -1); // creating file struct in order to compare
             Node *refNode = existsNode(fileSystemList, cmpFiles, newFile);
+            free(newFile->id);
             free(newFile);
             if(!refNode){ // doesn't exist, we move on
                 fprintf(outputFile, "NOT FOUND\n");
@@ -112,6 +115,7 @@ int main(){
             // finding the file with the id given
             File *newFile = createFile(fileName, -1); // creating file struct in order to compare
             Node *refNode = existsNode(fileSystemList, cmpFiles, newFile);
+            free(newFile->id);
             free(newFile);
             if(!refNode){ // doesn't exist, we move on
                 fprintf(outputFile, "NOT FOUND\n");
@@ -199,6 +203,9 @@ int main(){
                 p = p->next;
             }
             fprintf(outputFile, "\n");
+
+            // free mem
+            freeList(&filesWithPrefix, NULL);
         } else if(strcmp(operation, "PRINT") == 0){
             char keyword[101];
             int showsSomething = showKeyWords(keywordTrieRoot, keyword, 0, outputFile);
@@ -211,5 +218,8 @@ int main(){
 
     // FREE memory
     freeList(&fileSystemList, freeFile);
+    freeTrie(keywordTrieRoot);
+    fclose(inputFile);
+    fclose(outputFile);
     freeTrie(keywordTrieRoot);
 }
