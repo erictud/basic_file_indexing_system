@@ -12,6 +12,12 @@ Heap *initHeap(int maxHeapSize){
     return h;
 }
 
+// frees the memory of heap
+void freeHeap(Heap **h){
+    free((*h)->elem);
+    free(*h);
+}
+
 // gets the parent of a node in the heap
 int getParent(int i){
     return i/2;
@@ -78,4 +84,5 @@ File extractMax(Heap *h, int (*cmp)(File elem1, File elem2)){
     SiftDown(h, 1, cmp);
     return res;
 }
+
 

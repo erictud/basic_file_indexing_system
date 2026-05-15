@@ -24,4 +24,7 @@ int cmpFiles(void *content, void *refContent);
 int cmpNodes(void *node1, void *node2);
 // compares two files based on relevance score; if the score is equal, the compares lexicographically
 int cmpFilesByPriority(File f1, File f2);
+// frees the contents of a file
+void freeFile(void *f);
+
 #endif

@@ -1,9 +1,15 @@
---- temp.out.norm	2026-05-12 11:18:07.203044258 +0300
-+++ tests/out/test51.out.norm	2026-05-12 11:18:07.204044308 +0300
-@@ -8,5 +8,5 @@
- OK
- NOT FOUND
- OK
--mere 2 f_test f_altul
+--- temp.out.norm	2026-05-15 16:28:33.555988845 +0300
++++ tests/out/test51.out.norm	2026-05-15 16:28:33.558988128 +0300
+@@ -0,0 +1,12 @@
++OK
++NOT FOUND
++OK
++OK
++mere 1 f_test
++pere 1 f_test
++OK
++OK
++NOT FOUND
++OK
 +mere 2 f_altul f_test
- pere 2 f_altul f_test
++pere 2 f_altul f_test

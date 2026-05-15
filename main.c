@@ -171,6 +171,9 @@ int main(){
             }
             fprintf(outputFile, "\n");
 
+            // free mem
+            freeHeap(&keywordHeap);
+
         } else if(strcmp(operation, "PREFIX") == 0){
             char prefix[101];
             fscanf(inputFile, "%s", prefix);
@@ -204,6 +207,9 @@ int main(){
                 fprintf(outputFile, "EMPTY\n");
             }
         }
-
     }
+
+    // FREE memory
+    freeList(&fileSystemList, freeFile);
+    freeTrie(keywordTrieRoot);
 }

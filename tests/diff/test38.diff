@@ -1,11 +1,22 @@
---- temp.out.norm	2026-05-13 10:49:50.171449819 +0300
-+++ tests/out/test38.out.norm	2026-05-13 10:49:50.172449841 +0300
-@@ -7,7 +7,7 @@
- OK
- OK
- 4 ChloeFrager ElenaFisher NathanDrake SamDrake
--1 (null)
+--- temp.out.norm	2026-05-15 16:31:17.956689073 +0300
++++ tests/out/test38.out.norm	2026-05-15 16:31:17.958688595 +0300
+@@ -0,0 +1,19 @@
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++4 ChloeFrager ElenaFisher NathanDrake SamDrake
 +1 NathanDrake
- 4 ChloeFrager ElenaFisher NathanDrake SamDrake
- 1 NathanDrake
- 1 SamDrake
++4 ChloeFrager ElenaFisher NathanDrake SamDrake
++1 NathanDrake
++1 SamDrake
++adventurer 4 ChloeFrager ElenaFisher NathanDrake SamDrake
++hunter 1 NathanDrake
++journalist 1 ElenaFisher
++relic 1 NathanDrake
++thief 1 SamDrake
++treasure 1 NathanDrake

@@ -167,3 +167,15 @@ int cleanupTrie(TrieNode *root) {
     }
     return 0; 
 }
+
+// frees the mem of trie
+void freeTrie(TrieNode *root){
+    if(!root)
+        return;
+    
+    for(int i = 0; i < 26; i++)
+        if(root->children[i] != NULL)   
+            freeTrie(root->children[i]);
+    
+    free(root);
+}

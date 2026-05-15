@@ -1,15 +1,27 @@
---- temp.out.norm	2026-05-12 11:13:56.894652973 +0300
-+++ tests/out/test09.out.norm	2026-05-12 11:13:56.895653020 +0300
-@@ -10,7 +10,6 @@
- oseram 1 Erend
- outcast 1 Sylens
- warrior 1 Erend
--EMPTY
- OK
- OK
- OK
-@@ -23,4 +22,3 @@
- rebel 1 Regalla
- tenakth 2 Kotallo Regalla
- warrior 3 Erend Kotallo Varl
--EMPTY
+--- temp.out.norm	2026-05-15 16:27:46.984121791 +0300
++++ tests/out/test09.out.norm	2026-05-15 16:27:46.987121074 +0300
+@@ -0,0 +1,24 @@
++OK
++OK
++OK
++OK
++OK
++eclipse 1 Sylens
++hunter 1 Aloy
++machine 2 Aloy Sylens
++nora 1 Aloy
++oseram 1 Erend
++outcast 1 Sylens
++warrior 1 Erend
++OK
++OK
++OK
++eclipse 1 Sylens
++hunter 1 Aloy
++machine 2 Aloy Sylens
++nora 2 Aloy Varl
++oseram 1 Erend
++outcast 1 Sylens
++rebel 1 Regalla
++tenakth 2 Kotallo Regalla
++warrior 3 Erend Kotallo Varl

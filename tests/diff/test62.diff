@@ -1,22 +1,18 @@
---- temp.out.norm	2026-05-12 19:21:31.857875423 +0300
-+++ tests/out/test62.out.norm	2026-05-12 19:21:31.858875409 +0300
-@@ -2,19 +2,13 @@
- OK
- OK
- 1 d1
--EMPTY
- 2 d1 d2
--EMPTY
- 1 d3
--EMPTY
- OK
- 1 d2
--EMPTY
- OK
- 1 d1
--EMPTY
- 1 d2
--EMPTY
- mar 1 d1
- mare 1 d2
- marea 1 d3
+--- temp.out.norm	2026-05-15 16:28:41.600065919 +0300
++++ tests/out/test62.out.norm	2026-05-15 16:28:41.603065202 +0300
+@@ -0,0 +1,15 @@
++OK
++OK
++OK
++1 d1
++2 d1 d2
++1 d3
++OK
++1 d2
++OK
++1 d1
++1 d2
++mar 1 d1
++mare 1 d2
++marea 1 d3
++marinar 1 d2

@@ -1,18 +1,19 @@
---- temp.out.norm	2026-05-13 10:49:50.603458916 +0300
-+++ tests/out/test66.out.norm	2026-05-13 10:49:50.604458937 +0300
-@@ -3,11 +3,11 @@
- OK
- OK
- OK
--3 einstein curie curie
--2 einstein curie
+--- temp.out.norm	2026-05-15 16:31:21.704793094 +0300
++++ tests/out/test66.out.norm	2026-05-15 16:31:21.707792377 +0300
+@@ -0,0 +1,16 @@
++OK
++OK
++OK
++OK
++OK
 +3 einstein newton curie
 +2 einstein newton
- 1 einstein
--2 pitagora pitagora
--1 (null)
++1 einstein
 +2 pitagora thales
 +1 newton
- 3 curie einstein newton
- fizica 3 curie einstein newton
- gravitatie 1 newton
++3 curie einstein newton
++fizica 3 curie einstein newton
++gravitatie 1 newton
++relativitate 1 einstein
++teorema 2 pitagora thales
++triunghi 2 pitagora thales

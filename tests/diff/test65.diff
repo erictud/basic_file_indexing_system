@@ -1,143 +1,76 @@
---- temp.out.norm	2026-05-12 19:21:31.911185626 +0300
-+++ tests/out/test65.out.norm	2026-05-12 19:21:31.917611780 +0300
-@@ -6,7 +6,6 @@
- OK
- OK
- 3 doc0 doc2 doc3
--EMPTY
- OK
- OK
- adancime 2 doc0 doc5
-@@ -160,7 +159,6 @@
- zapada 4 doc0 doc2 doc3 doc5
- zgomot 4 doc0 doc1 doc2 doc5
- 5 doc0 doc1 doc2 doc3 doc5
--EMPTY
- OK
- OK
- NOT FOUND
-@@ -467,12 +465,10 @@
- zapada 3 doc0 doc3 doc5
- zgomot 3 doc0 doc1 doc5
- 3 doc0 doc3 doc5
--EMPTY
- OK
- OK
- OK
- 5 doc0 doc1 doc3 doc5 doc6
--EMPTY
- OK
- OK
- OK
-@@ -628,7 +624,6 @@
- zapada 5 doc0 doc3 doc5 doc6 doc7
- zgomot 5 doc0 doc1 doc5 doc6 doc7
- 7 doc0 doc1 doc3 doc4 doc5 doc6 doc7
--EMPTY
- OK
- OK
- adancime 4 doc0 doc5 doc6 doc7
-@@ -784,10 +779,8 @@
- OK
- OK
- 7 doc0 doc3 doc4 doc5 doc6 doc7 doc8
--EMPTY
- OK
- 3 doc1 doc7 doc8
--EMPTY
- NOT FOUND
- OK
- adancime 5 doc0 doc5 doc6 doc7 doc8
-@@ -941,7 +934,6 @@
- zapada 6 doc0 doc3 doc5 doc6 doc7 doc8
- zgomot 6 doc0 doc1 doc5 doc6 doc7 doc8
- 5 doc0 doc4 doc5 doc7 doc8
--EMPTY
- OK
- OK
- NOT FOUND
-@@ -1097,12 +1089,10 @@
- zapada 6 doc0 doc3 doc5 doc6 doc7 doc8
- zgomot 6 doc0 doc1 doc5 doc6 doc7 doc8
- 3 doc0 doc5 doc7
--EMPTY
- NOT FOUND
- OK
- NOT FOUND
- 5 doc0 doc3 doc5 doc7 doc8
--EMPTY
- NOT FOUND
- OK
- adancime 5 doc0 doc5 doc6 doc7 doc8
-@@ -1407,15 +1397,12 @@
- zapada 6 doc0 doc3 doc5 doc6 doc7 doc8
- zgomot 5 doc0 doc5 doc6 doc7 doc8
- 4 doc3 doc5 doc7 doc8
--EMPTY
- OK
- 4 doc0 doc3 doc5 doc7
--EMPTY
- OK
- OK
- NOT FOUND
- 7 doc0 doc3 doc5 doc6 doc7 doc8 doc9
--EMPTY
- OK
- OK
- adancime 6 doc0 doc5 doc6 doc7 doc8 doc9
-@@ -1569,20 +1556,16 @@
- zapada 7 doc0 doc3 doc5 doc6 doc7 doc8 doc9
- zgomot 6 doc0 doc5 doc6 doc7 doc8 doc9
- 5 doc0 doc5 doc7 doc8 doc9
--EMPTY
- OK
- OK
- OK
- 7 doc0 doc3 doc5 doc6 doc7 doc8 doc9
--EMPTY
- OK
- OK
- OK
- 6 doc0 doc3 doc5 doc7 doc8 doc9
--EMPTY
- NOT FOUND
- 8 doc0 doc10 doc11 doc3 doc5 doc6 doc7 doc9
--EMPTY
- OK
- NOT FOUND
- adancime 7 doc0 doc11 doc5 doc6 doc7 doc8 doc9
-@@ -1736,20 +1719,16 @@
- zapada 7 doc0 doc3 doc5 doc6 doc7 doc8 doc9
- zgomot 7 doc0 doc11 doc5 doc6 doc7 doc8 doc9
- 8 doc0 doc10 doc11 doc3 doc5 doc6 doc7 doc9
--EMPTY
- OK
- OK
- OK
- 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
--EMPTY
- OK
- NOT FOUND
- NOT FOUND
- 7 doc0 doc10 doc11 doc3 doc7 doc8 doc9
--EMPTY
- OK
- 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
--EMPTY
- OK
- OK
- adancime 6 doc0 doc11 doc5 doc7 doc8 doc9
-@@ -2205,13 +2184,10 @@
- zapada 6 doc0 doc3 doc5 doc7 doc8 doc9
- zgomot 6 doc0 doc11 doc5 doc7 doc8 doc9
- 4 doc10 doc11 doc7 doc8
--EMPTY
- OK
- 7 doc0 doc10 doc11 doc3 doc5 doc7 doc9
--EMPTY
- OK
- 6 doc0 doc10 doc11 doc7 doc8 doc9
--EMPTY
- OK
- adancime 6 doc0 doc11 doc5 doc7 doc8 doc9
- adrenalina 7 doc0 doc10 doc11 doc3 doc7 doc8 doc9
+--- temp.out.norm	2026-05-15 16:28:45.004171359 +0300
++++ tests/out/test65.out.norm	2026-05-15 16:28:45.012107173 +0300
+@@ -2271,4 +2271,71 @@
+ noapte 7 doc10 doc11 doc3 doc5 doc7 doc8 doc9
+ nor 5 doc0 doc10 doc11 doc5 doc7
+ nuca 7 doc0 doc10 doc11 doc3 doc5 doc7 doc9
+-oras 8 doc0 doc10 doc11 doc3 doc5 d
+\ No newline at end of file
++oras 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++orientare 7 doc0 doc10 doc3 doc5 doc7 doc8 doc9
++otel 6 doc0 doc10 doc11 doc3 doc5 doc7
++padure 6 doc0 doc10 doc11 doc3 doc7 doc9
++palmieri 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++pamant 7 doc0 doc11 doc3 doc5 doc7 doc8 doc9
++parcare 5 doc0 doc10 doc3 doc7 doc9
++pasari 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++patine 6 doc0 doc10 doc5 doc7 doc8 doc9
++patura 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++peisaj 7 doc0 doc10 doc11 doc3 doc5 doc7 doc9
++pelican 7 doc0 doc10 doc11 doc5 doc7 doc8 doc9
++pescarusi 6 doc0 doc10 doc3 doc7 doc8 doc9
++pescuit 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++peste 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++pestera 7 doc0 doc10 doc11 doc3 doc7 doc8 doc9
++picaturi 7 doc0 doc10 doc11 doc5 doc7 doc8 doc9
++plaja 6 doc0 doc10 doc3 doc5 doc7 doc8
++plasa 5 doc0 doc11 doc5 doc7 doc9
++ploaie 7 doc0 doc10 doc3 doc5 doc7 doc8 doc9
++pod 6 doc0 doc10 doc5 doc7 doc8 doc9
++poiana 7 doc0 doc10 doc11 doc5 doc7 doc8 doc9
++port 7 doc0 doc10 doc11 doc3 doc7 doc8 doc9
++povesti 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++poza 4 doc10 doc11 doc7 doc8
++poze 7 doc0 doc10 doc3 doc5 doc7 doc8 doc9
++prapastie 6 doc0 doc10 doc3 doc7 doc8 doc9
++prieteni 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++rasarit 7 doc0 doc10 doc11 doc3 doc5 doc8 doc9
++rece 7 doc0 doc10 doc11 doc3 doc5 doc7 doc9
++reflectie 7 doc0 doc10 doc3 doc5 doc7 doc8 doc9
++relaxare 7 doc0 doc11 doc3 doc5 doc7 doc8 doc9
++rucsac 7 doc0 doc10 doc3 doc5 doc7 doc8 doc9
++salcie 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++sanie 7 doc0 doc10 doc11 doc3 doc7 doc8 doc9
++sare 6 doc0 doc10 doc11 doc7 doc8 doc9
++schi 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++scoici 7 doc0 doc10 doc11 doc5 doc7 doc8 doc9
++semineu 6 doc0 doc10 doc3 doc5 doc7 doc9
++sezlong 6 doc0 doc10 doc5 doc7 doc8 doc9
++soare 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++somn 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++sport 7 doc0 doc10 doc11 doc5 doc7 doc8 doc9
++stanca 7 doc0 doc10 doc3 doc5 doc7 doc8 doc9
++stele 7 doc0 doc10 doc11 doc3 doc7 doc8 doc9
++sticla 5 doc10 doc11 doc3 doc7 doc9
++stuf 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++tacere 7 doc0 doc10 doc11 doc3 doc5 doc7 doc9
++tehnologie 7 doc0 doc10 doc11 doc3 doc5 doc7 doc9
++timp 6 doc10 doc11 doc3 doc5 doc7 doc9
++transport 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++traseu 7 doc0 doc10 doc11 doc3 doc5 doc7 doc9
++trezire 6 doc0 doc10 doc3 doc5 doc7 doc9
++turist 7 doc0 doc10 doc11 doc3 doc5 doc7 doc9
++umbra 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++umbrela 6 doc0 doc10 doc11 doc7 doc8 doc9
++undita 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++urs 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++valuri 7 doc0 doc10 doc11 doc5 doc7 doc8 doc9
++vant 4 doc0 doc10 doc5 doc8
++vapor 7 doc0 doc10 doc3 doc5 doc7 doc8 doc9
++vasle 7 doc0 doc10 doc11 doc3 doc7 doc8 doc9
++viitor 8 doc0 doc10 doc11 doc3 doc5 doc7 doc8 doc9
++vin 6 doc0 doc10 doc5 doc7 doc8 doc9
++violet 6 doc0 doc10 doc11 doc7 doc8 doc9
++vis 7 doc0 doc10 doc11 doc5 doc7 doc8 doc9
++zapada 6 doc0 doc3 doc5 doc7 doc8 doc9
++zgomot 6 doc0 doc11 doc5 doc7 doc8 doc9

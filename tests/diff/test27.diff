@@ -1,13 +1,22 @@
---- temp.out.norm	2026-05-13 10:49:50.011446450 +0300
-+++ tests/out/test27.out.norm	2026-05-13 10:49:50.013446492 +0300
-@@ -7,8 +7,8 @@
- OK
- OK
- 3 BoydStevens EthanMatthews Victor
--3 BoydStevens EthanMatthews EthanMatthews
--2 BoydStevens EthanMatthews
+--- temp.out.norm	2026-05-15 16:31:30.494691883 +0300
++++ tests/out/test27.out.norm	2026-05-15 16:31:30.496691405 +0300
+@@ -0,0 +1,19 @@
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++3 BoydStevens EthanMatthews Victor
 +3 BoydStevens Victor EthanMatthews
 +2 BoydStevens Victor
- OK
- 4 BoydStevens EthanMatthews SaraMyers Victor
- colony 3 BoydStevens EthanMatthews Victor
++OK
++4 BoydStevens EthanMatthews SaraMyers Victor
++colony 3 BoydStevens EthanMatthews Victor
++mystery 4 BoydStevens EthanMatthews SaraMyers Victor
++newcomer 2 EthanMatthews JimMatthews
++sheriff 1 BoydStevens
++survivor 2 BoydStevens Victor
++threat 1 SaraMyers

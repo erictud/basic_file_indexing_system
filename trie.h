@@ -28,4 +28,6 @@ int printReferencedFiles(TrieNode *root, char *keyword, int lvl, FILE *outputFil
 TrieNode *findLastLetterNode(TrieNode *root, char *keyword, int lvl);
 // gets all the unique referenced nodes from a trie
 void getAllRefrencedNodes(TrieNode *root, List *nodesList);
+// frees the mem of trie
+void freeTrie(TrieNode *root);
 #endif

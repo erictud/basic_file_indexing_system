@@ -1,12 +1,29 @@
---- temp.out.norm	2026-05-12 19:21:31.281883168 +0300
-+++ tests/out/test25.out.norm	2026-05-12 19:21:31.282883155 +0300
-@@ -15,9 +15,7 @@
- survivor 1 HopperChief
- upsidedown 2 ElevenHopper HopperChief
- 5 DustinHenderson ElevenHopper HopperChief MaxMayfield MikeWheeler
--EMPTY
- 2 ElevenHopper HopperChief
--EMPTY
- OK
- chief 1 HopperChief
- hawkins 5 DustinHenderson ElevenHopper HopperChief MaxMayfield MikeWheeler
+--- temp.out.norm	2026-05-15 16:28:05.104790068 +0300
++++ tests/out/test25.out.norm	2026-05-15 16:28:05.107789351 +0300
+@@ -0,0 +1,26 @@
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++chief 1 HopperChief
++hawkins 5 DustinHenderson ElevenHopper HopperChief MaxMayfield MikeWheeler
++hero 1 ElevenHopper
++party 3 DustinHenderson MaxMayfield MikeWheeler
++psychic 1 ElevenHopper
++survivor 1 HopperChief
++upsidedown 2 ElevenHopper HopperChief
++5 DustinHenderson ElevenHopper HopperChief MaxMayfield MikeWheeler
++2 ElevenHopper HopperChief
++OK
++chief 1 HopperChief
++hawkins 5 DustinHenderson ElevenHopper HopperChief MaxMayfield MikeWheeler
++hero 1 ElevenHopper
++party 2 DustinHenderson MaxMayfield
++psychic 1 ElevenHopper
++survivor 1 HopperChief
++upsidedown 2 ElevenHopper HopperChief

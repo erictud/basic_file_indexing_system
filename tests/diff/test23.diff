@@ -1,12 +1,29 @@
---- temp.out.norm	2026-05-12 19:21:31.252883558 +0300
-+++ tests/out/test23.out.norm	2026-05-12 19:21:31.254883531 +0300
-@@ -15,9 +15,7 @@
- thief 1 SamDrake
- treasure 2 NathanDrake SullyMcaffrey
- 5 ChloeFrager ElenaFisher NathanDrake SamDrake SullyMcaffrey
--EMPTY
- 2 NathanDrake SullyMcaffrey
--EMPTY
- OK
- adventurer 5 ChloeFrager ElenaFisher NathanDrake SamDrake SullyMcaffrey
- hunter 1 NathanDrake
+--- temp.out.norm	2026-05-15 16:28:02.845330189 +0300
++++ tests/out/test23.out.norm	2026-05-15 16:28:02.848329472 +0300
+@@ -0,0 +1,26 @@
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++adventurer 5 ChloeFrager ElenaFisher NathanDrake SamDrake SullyMcaffrey
++hunter 1 NathanDrake
++journalist 1 ElenaFisher
++relic 2 ChloeFrager NathanDrake
++smuggler 1 SullyMcaffrey
++thief 1 SamDrake
++treasure 2 NathanDrake SullyMcaffrey
++5 ChloeFrager ElenaFisher NathanDrake SamDrake SullyMcaffrey
++2 NathanDrake SullyMcaffrey
++OK
++adventurer 5 ChloeFrager ElenaFisher NathanDrake SamDrake SullyMcaffrey
++hunter 1 NathanDrake
++journalist 1 ElenaFisher
++relic 1 NathanDrake
++smuggler 1 SullyMcaffrey
++thief 1 SamDrake
++treasure 2 NathanDrake SullyMcaffrey

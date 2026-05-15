@@ -16,5 +16,7 @@ Heap *initHeap(int maxHeapSize);
 void insertHeap(Heap *h, File elem, int (*cmp)(File elem1, File elem2));
 // extracts the maximum element, whose priority is determined by the cmp func
 File extractMax(Heap *h, int (*cmp)(File elem1, File elem2));
+// frees the memory of heap
+void freeHeap(Heap **h);
 
 #endif

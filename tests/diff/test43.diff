@@ -1,9 +1,29 @@
---- temp.out.norm	2026-05-12 11:21:23.969523416 +0300
-+++ tests/out/test43.out.norm	2026-05-12 11:21:23.970200855 +0300
-@@ -21,3 +21,39 @@
- OK
- OK
- OK
+--- temp.out.norm	2026-05-15 16:28:25.548902930 +0300
++++ tests/out/test43.out.norm	2026-05-15 16:28:25.551902213 +0300
+@@ -0,0 +1,59 @@
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++EXISTS
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
 +OK
 +OK
 +OK

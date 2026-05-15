@@ -1,23 +1,14 @@
---- temp.out.norm	2026-05-12 11:13:57.336673957 +0300
-+++ tests/out/test47.out.norm	2026-05-12 11:13:57.338674052 +0300
-@@ -101,7 +101,6 @@
- canapea 3 f_lung_1 f_lung_2 f_lung_3
- canar 3 f_lung_1 f_lung_2 f_lung_3
- nou 3 f_lung_1 f_lung_2 f_lung_3
--EMPTY
- OK
- acas 2 f_lung_2 f_lung_3
- albastru 2 f_lung_2 f_lung_3
-@@ -203,7 +202,6 @@
- canapea 2 f_lung_2 f_lung_3
- canar 2 f_lung_2 f_lung_3
- nou 2 f_lung_2 f_lung_3
--EMPTY
- OK
- acas 1 f_lung_2
- albastru 1 f_lung_2
-@@ -305,4 +303,3 @@
- canapea 1 f_lung_2
- canar 1 f_lung_2
- nou 1 f_lung_2
--EMPTY
+--- temp.out.norm	2026-05-15 16:28:28.991080081 +0300
++++ tests/out/test47.out.norm	2026-05-15 16:28:28.993079603 +0300
+@@ -297,4 +297,9 @@
+ calm 1 f_lung_2
+ camera 1 f_lung_2
+ camin 1 f_lung_2
+-camp 1 f_lung_2
+\ No newline at end of file
++camp 1 f_lung_2
++campie 1 f_lung_2
++cana 1 f_lung_2
++canapea 1 f_lung_2
++canar 1 f_lung_2
++nou 1 f_lung_2

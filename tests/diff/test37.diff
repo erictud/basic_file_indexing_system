@@ -1,11 +1,24 @@
---- temp.out.norm	2026-05-13 10:49:50.157449525 +0300
-+++ tests/out/test37.out.norm	2026-05-13 10:49:50.158449546 +0300
-@@ -7,7 +7,7 @@
- OK
- OK
- 2 JinSakai Masako
--2 Atsu Atsu
+--- temp.out.norm	2026-05-15 16:31:43.697535761 +0300
++++ tests/out/test37.out.norm	2026-05-15 16:31:43.700535044 +0300
+@@ -0,0 +1,21 @@
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++OK
++2 JinSakai Masako
 +2 JinSakai Atsu
- 2 JinSakai Masako
- 2 Atsu JinSakai
- 1 Atsu
++2 JinSakai Masako
++2 Atsu JinSakai
++1 Atsu
++ghost 2 Atsu JinSakai
++legend 1 JinSakai
++mongol 1 Khotun
++samurai 2 JinSakai Masako
++tsushima 1 JinSakai
++vengeance 1 Masako
++warrior 1 Atsu
++yotei 1 Atsu

@@ -16,6 +16,13 @@ File *createFile(char *name, int score){
     return newFile;
 }
 
+// frees the contents of a file
+void freeFile(void *f){
+    File *file = (File *)(f);
+    free(file->id); // id allocated dynamically
+    free(f);
+}
+
 // sorts a list of files stored as nodes by names
 void sortFilesByName(List *list){
     // a list with < 2 elem shouldnt be sorted

@@ -79,8 +79,9 @@ void freeList(List **list, void (*freeContent)(void *)){
         prev = p;
         p = p->next;
         // freeing mem
-        freeContent(prev->content);
-        free(prev->content);
+        if(freeContent){
+            freeContent(prev->content);
+        }
         free(prev);
     }
     free(*list);
